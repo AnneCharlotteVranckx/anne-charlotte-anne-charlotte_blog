@@ -1,11 +1,10 @@
 ---
 title: "About Me"
 author:
-  - name: "___" 
+  - name: "Vranckx Anne-Charlotte" 
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
-This section must bu include a short presentation of you.
+My name is Vranckx Anne-Charlotte. I am a student in Biology (BAB2) and my English teacher is Miss Bouchet. This blog was made for the academic year 2020 - 2021.
 
-- first name/surname, teacher’s name, class name and academic year
