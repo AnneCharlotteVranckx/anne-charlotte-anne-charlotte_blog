@@ -3,6 +3,7 @@ title: "Anne-Charlotte's Blog"
 output_dir: "docs"
 navbar:
   right:
+    - image: logo1.png
     - text: "Home"
       href: index.html
     - text: "M.E.A.L."

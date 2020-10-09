@@ -1,20 +1,5 @@
 [
   {
-    "path": "posts/about/",
-    "title": "About Me",
-    "description": {},
-    "author": [
-      {
-        "name": "Vranckx Anne-Charlotte",
-        "url": {}
-      }
-    ],
-    "date": "2020-10-08",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2020-10-08T16:25:24+02:00"
-  },
-  {
     "path": "posts/meal/",
     "title": "My English Activity Log : MEAL",
     "description": {},
@@ -31,6 +16,21 @@
     ],
     "preview": {},
     "last_modified": "2020-10-09T07:30:57+02:00"
+  },
+  {
+    "path": "posts/about/",
+    "title": "About Me",
+    "description": {},
+    "author": [
+      {
+        "name": "Vranckx Anne-Charlotte",
+        "url": {}
+      }
+    ],
+    "date": "2020-10-08",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-10-08T16:25:24+02:00"
   },
   {
     "path": "posts/2019-10-24-bacteria-antobiotics/",
