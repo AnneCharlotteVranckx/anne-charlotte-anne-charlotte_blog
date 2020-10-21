@@ -9,10 +9,12 @@ navbar:
     - image: logo.gif
     - text: "Home"
       href: index.html
-    - text: "Sections"
+    - text: "English for Science"
       menu:
-        - text: "Articles"
-          href: Articles.html
+        - text: "Table of contents"
+          href: tableofcontents.html
+        - text: "M.E.A.L."
+          href: meal.html
     - text: "About Me"
       href: "posts/about/index.html"
     - icon: fab fa-github

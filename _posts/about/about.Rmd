@@ -5,6 +5,8 @@ description :
 author:
   - name: "Vranckx Anne-Charlotte" 
 date: "`r Sys.Date()`"
+categories:
+  - "Divers"
 preview : ../../logo1.png
 output: distill::distill_article
 ---
