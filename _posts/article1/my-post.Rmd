@@ -1,0 +1,12 @@
+---
+title: "Article 1"
+description: |
+  A mother mouse’s gut microbes help wire her pup’s brain
+author:
+  - name: Anne-Charlotte Vranckx
+    url: {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    self_contained: false
+---

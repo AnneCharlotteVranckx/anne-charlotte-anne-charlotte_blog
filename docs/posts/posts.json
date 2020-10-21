@@ -42,6 +42,23 @@
     "preview_height": 819
   },
   {
+    "path": "posts/article1/",
+    "title": "Article 1",
+    "description": "A mother mouse’s gut microbes help wire her pup’s brain",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {}
+        }
+      }
+    ],
+    "date": "2020-10-21",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-10-21T22:20:29+02:00"
+  },
+  {
     "path": "posts/meal/",
     "title": "My English Activity Log : MEAL",
     "description": {},
