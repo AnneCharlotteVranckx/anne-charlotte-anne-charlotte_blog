@@ -8,6 +8,7 @@ author:
 date: "`r Sys.Date()`"
 categories:
   - "English for Science"
+preview: mouse.jpg
 output:
   distill::distill_article:
     self_contained: false
