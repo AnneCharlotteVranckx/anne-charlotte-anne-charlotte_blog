@@ -54,9 +54,11 @@
       }
     ],
     "date": "2020-10-21",
-    "categories": [],
+    "categories": [
+      "English for Science"
+    ],
     "preview": {},
-    "last_modified": "2020-10-21T22:20:29+02:00"
+    "last_modified": "2020-10-21T22:28:01+02:00"
   },
   {
     "path": "posts/meal/",
