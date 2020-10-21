@@ -1,7 +1,7 @@
 name: "blog-template"
 title: "Anne-Charlotte's Blog"
 output_dir: "docs"
-favicon: logo1.png
+favicon: logo.gif
 navbar:
   left:
   - text: 
