@@ -2,11 +2,11 @@
   color: rgba(255, 255, 255, 0.8);
   background-color: #f0ceef;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .distill-site-nav a {
-  color: white;
+  color: lightgrey;
   text-decoration: none;
 }
 
