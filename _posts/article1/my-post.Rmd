@@ -16,7 +16,7 @@ output:
 # Source, date & words
 ***
 
-I decided to choose an ![article](https://www.sciencenews.org/article/mother-mouse-gut-microbes-microbiome-pup-brain) from *ScienceNews*.
+I decided to choose an [article](www.sciencenews.org/article/mother-mouse-gut-microbes-microbiome-pup-brain) from *ScienceNews*.
 I consulted the page on Tuesday, 29th September 2020.
 The article has been published on Wednesday, 23th 2020.
 
@@ -26,13 +26,28 @@ Word count :
 ***
 # Vocabulary
 ***
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| gut | the stomach or belly | stomach |
+| to wire | provide, fasten, or reinforce with wires | to reinforce |
+| offspring | an animal's young | progeny, children |
+| microbiome | a community of microorganisms that inhabit a particular environment and especially the collection of microorganisms living in or on a animal | / |
+| metabolites | a substance formed in or necessary for metabolism | / |
+|bugs|a harmful microorganism, typically a bacterium|bacteria|
+|paw|an animal's foot having claws and pads|pad|
+|
+
+
+
+
 # Analysis Table
 ***
-
-#basic article information
-#Researchers
-#Published in
-#General topic
-#Procedure/what was examinated
-#Conclusion/discoveries
-#Remaining questions
+|Basic article information|/|
+|-----|-----|
+|Reserchers| Carolyn Wilke (who wrote the article), Helen Vuong, Cathryn Nagler (not involved in the study) |
+|Published in|SEPTEMBER 23, 2020|
+|General topic| link betwen mom’s gut microbes and her baby’s sensory connections|
+|Precdure/what was examinated?|...|
+|Conclusion/discoveries|...|
+|Remaining questions|...|
