@@ -13,3 +13,26 @@ output:
   distill::distill_article:
     self_contained: false
 ---
+# Source, date & words
+***
+
+I decided to choose an ![article](https://www.sciencenews.org/article/mother-mouse-gut-microbes-microbiome-pup-brain) from *ScienceNews*.
+I consulted the page on Tuesday, 29th September 2020.
+The article has been published on Wednesday, 23th 2020.
+
+Word count :
+
+# Summary
+***
+# Vocabulary
+***
+# Analysis Table
+***
+
+#basic article information
+#Researchers
+#Published in
+#General topic
+#Procedure/what was examinated
+#Conclusion/discoveries
+#Remaining questions
