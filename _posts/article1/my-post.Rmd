@@ -17,7 +17,7 @@ output:
 ***
 
 I decided to choose an [article](https://www.sciencenews.org/article/mother-mouse-gut-microbes-microbiome-pup-brain) from *ScienceNews*.
-I consulted the page on Tuesday, 29th September 2020.
+I consulted the page on Tuesday, 25th September 2020.
 The article has been published on Wednesday, 23th 2020.
 
 Word count :
@@ -25,7 +25,7 @@ Word count :
 # Summary
 ***
 The microbes living in a female mouse’s gut help to wire the offspring’s brain. The study explains how a mother’s microbiome can develop long-term outcomes in her offspring.
-In the past, scientists found connections between the microbiome of a mouse mother and her offsprings. The problem was that the animals were put under stress or ill. Helen Vuong and her colleagues (UCLA) wanted to know the impact of a mother's microbial mix on her offspring's brains.
+In the past, scientists found connections between the microbiome of a mouse mother and her offsprings. But there is a problem : the animals were put under stress or were ill. Helen Vuong and her colleagues (UCLA) wanted to know the impact of a mother's microbial mix on her offspring's brains.
 
 They saw that specific microbes and small molecules (named metabolites) from the mother's microbiome have a big influence on the development brain of the fetus. Metabolites act on the development of the pup's brain by affecting the growth of axons.
 
@@ -60,15 +60,15 @@ Researchers have to compare the benefits of antibiotics (which are on short-term
 | metabolites | a substance formed in or necessary for metabolism | / |
 |bugs|a harmful microorganism, typically a bacterium|bacteria|
 |paw|an animal's foot having claws and pads|pad|
-|axone|threadlike signal-transmitters of nerve cells|...|
+|axone|threadlike signal-transmitters of nerve cells|/|
 
 # Analysis Table
 ***
-| **Basic article information**      | /                                                                                                                                                                                                                                                                                                                                               |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| |**Reserchers**                    | Carolyn Wilke (who wrote the article) - Helen Vuong and her colleagues - Cathryn Nagler (not involved in the study) - University of Chicago - Carolina Tropini                                                                                                                                                                                  |
-| **Published in**                   | in ScienceNews / on September 23, 2020                                                                                                                                                                                                                                                                                                          |
-| **General topic**                  | link betwen mom’s gut microbes and her baby’s sensory connection                                                                                                                                                                                                                                                                                |
-| **Procedure/what was examinated?** |  How microbes living in the gut of a normal female can develop long-term outcomes on her offspring ? -> they uses 3 types of pregnant mice (with or without microbes or using antibiotics) -> Giving Clostridia bacteria to female to the female without regular bacteria in their gut                                                          |
-| **Conclusion/discoveries**         | Influence of small microbes and metabolites  -> fetuses from mothers without suffered from shorter and fewer axons extending from the  brain's relay station to the cortex : they will be less sensory sensitive to touch -> fetuses from mother without a regular gut bugs but received Clostridia has a normal brain and behavior development |
-| **Remaining questions              |                                                                                                                                                                                                                                                                                                                                                 |
+| **Basic article informations**      | / |
+| ----- | ----- |
+|**Researchers** | Carolyn Wilke (who wrote the article), Helen Vuong and her colleagues, Cathryn Nagler (not involved in the study), University of Chicago, Carolina Tropini |
+| **Published in**  | in ScienceNews / on September 23, 2020  
+| **General topic** | link betwen mom’s gut microbes and her baby’s sensory connection |
+| **Procedure/what was examinated?** |  How microbes living in the gut of a normal female can develop long-term outcomes on her offspring ? **=>** they uses 3 types of pregnant mice (with & without microbes and using antibiotics) **=>** Giving Clostridia bacteria to female without regular bacteria in their gut |
+| **Conclusion/discoveries** | Influence of small microbes and metabolites on offsprings **=>** fetuses from mothers without regular gut bugs suffered from shorter and fewer axons extending from the  brain's relay station to the cortex **=>** they will be less sensory sensitive to touch **=>** fetuses from mother without a regular gut bugs but received Clostridia has a normal brain and behavior development |
+| **Remaining questions**| What is the impact of gut bugs on human fetuses ?  |
