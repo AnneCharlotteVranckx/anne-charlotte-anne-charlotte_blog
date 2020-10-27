@@ -11,35 +11,12 @@
         }
       }
     ],
-    "date": "2020-10-25",
+    "date": "2020-10-27",
     "categories": [
       "English for Science"
     ],
     "preview": "posts/article1/mouse.jpg",
-    "last_modified": "2020-10-25T15:46:07+01:00"
-  },
-  {
-    "path": "posts/2019-10-25-biggest-rodent/",
-    "title": "Biggest rodent",
-    "description": "Analysis of \"Biggest rodent 'fought with teeth' like tusks\"",
-    "author": [
-      {
-        "name": "Student Unknown",
-        "url": {}
-      },
-      {
-        "name": "Van Lancker Ingrid",
-        "url": {}
-      },
-      {
-        "name": "Engels Guyliann",
-        "url": "https://guyliann.netlify.com/fr"
-      }
-    ],
-    "date": "2020-10-21",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2020-10-21T21:34:52+02:00"
+    "last_modified": "2020-10-27T08:04:08+01:00"
   },
   {
     "path": "posts/about/",

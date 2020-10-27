@@ -20,7 +20,10 @@ I decided to choose an [article](https://www.sciencenews.org/article/mother-mous
 I consulted the page on Tuesday, 25th September 2020.
 The article has been published on Wednesday, 23th 2020.
 
-Word count :
+**Word count** :
+
+- 498 in summmary
+- 213 in analyzes
 
 # Summary
 ***
@@ -37,7 +40,7 @@ H. Vuong and her team decided to take the fetuses from 3 types of pregnant mice:
 For the two very last groups, fetuses suffered from shorter and fewer axons extending from the  brain's relay station to the cortex. The result is that these offsprings will be less sensory sensitive because these connections are important for processing sensory information.
 They were less sensitive to touch than mice from mothers with regular gut bugs.
 The mice from the 2 last groups took sensory tests: "They took longer to notice a small piece of tape stuck to one of their paws".
-If we give *Clostridia bacteria* (common gut microbes) to female without regular gut bugs, the offsprings develop a normal brain and a normal conduct.The absence of these bacteria is linked to some non-transferables conditions (as food allergies)
+If we give *Clostridia bacteria* (common gut microbes) to female without regular gut bugs, the offsprings develop a normal brain and a normal conduct.The absence of these bacteria is linked to some non-transferable conditions (as food allergies)
 
 They discovered that small molecules are made by microorganisms in the gut intervene for this effect. They also discovered that certain metabolites present in the mother's blood are linked to the blood and the brain of their offsprings.
 We can make a little conclusion by saying that the mother shares her metabolites (from the gut) with her pups.
@@ -69,6 +72,6 @@ Researchers have to compare the benefits of antibiotics (which are on short-term
 |**Researchers** | Carolyn Wilke (who wrote the article), Helen Vuong and her colleagues, Cathryn Nagler (not involved in the study), University of Chicago, Carolina Tropini |
 | **Published in**  | in ScienceNews / on September 23, 2020  
 | **General topic** | link betwen mom’s gut microbes and her baby’s sensory connection |
-| **Procedure/what was examinated?** |  How microbes living in the gut of a normal female can develop long-term outcomes on her offspring ? **=>** they uses 3 types of pregnant mice (with & without microbes and using antibiotics) **=>** Giving Clostridia bacteria to female without regular bacteria in their gut |
-| **Conclusion/discoveries** | Influence of small microbes and metabolites on offsprings **=>** fetuses from mothers without regular gut bugs suffered from shorter and fewer axons extending from the  brain's relay station to the cortex **=>** they will be less sensory sensitive to touch **=>** fetuses from mother without a regular gut bugs but received Clostridia has a normal brain and behavior development |
-| **Remaining questions**| What is the impact of gut bugs on human fetuses ?  |
+| **Procedure/what was examinated?** |  How microbes living in the gut of a normal female can develop long-term outcomes on her offspring ? **=>** they uses 3 types of pregnant mice (with & without microbes and using antibiotics) **=>** Giving Clostridia bacteria to female without regular bacteria in their gut **=>** give complements of metabolites and bacteria to pregant mice |
+| **Conclusion/discoveries** | Influence of small microbes and metabolites on offsprings **=>** impact on axons **=>** fetuses from mothers without regular gut bugs **=>** suffered from shorter and fewer axons extending from the  brain's relay station to the cortex **=>** less sensory sensitive to touch **=>** fetuses from mother without a regular gut bugs but received Clostridia has a normal brain and behavior development **=>** absence of these bacteria is linked to some non-transfereble conditions. They discovered that small molecules and metabolites  from the mother are linked to the blood and brain of offsprings **=>** the pups from pregnant mice which received complements develop a normal conduct |
+| **Remaining questions**| What is the impact of gut bugs on human fetuses ? How gut microbes and metabolites intervene in the development of human brain ? |
