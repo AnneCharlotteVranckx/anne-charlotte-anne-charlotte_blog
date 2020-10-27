@@ -23,9 +23,7 @@ base_url: AnneCharlotteVranckx.github.io/anne-charlotte-annecharlotte_blog/
 collections:
     posts:
       share: [twitter, linkedin, facebook]
-      #disqus: 
-         #shortname:
-         #hiden: false
+      disqus: anne-charlottes-blog
 output:
   distill::distill_article:
     css: style.css
