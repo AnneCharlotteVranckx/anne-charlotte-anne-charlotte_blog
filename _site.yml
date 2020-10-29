@@ -19,7 +19,7 @@ navbar:
       href: "posts/about/index.html"
     - icon: fab fa-github
       href: https://github.com/AnneCharlotteVranckx/anne-charlotte-anne-charlotte_blog
-base_url: AnneCharlotteVranckx.github.io/anne-charlotte-annecharlotte_blog/
+base_url: https://AnneCharlotteVranckx.github.io/anne-charlotte-annecharlotte_blog/
 collections:
     posts:
       share: [twitter, linkedin, facebook]
