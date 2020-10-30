@@ -20,6 +20,8 @@ navbar:
       menu:
         - text: "Table of contents"
           href: tableofcontentsssd.html
+    - text: "Science by Me"
+      menu:
     - text: "About Me"
       href: "posts/about/index.html"
     - icon: fab fa-github
