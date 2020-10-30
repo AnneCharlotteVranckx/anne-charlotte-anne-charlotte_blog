@@ -22,13 +22,22 @@
 
 ul > li::marker {
   font-size: 1.125em;
-  color: #FFA5FF;
+  color: #ECC9EC;
 }
 
 d-article a {
-  border-bottom: 2px solid #FFA5FF;
+  border-bottom: 2px solid #ECC9EC;
   text-decoration: none;
-  table-layout: #FFA5FF;
+}
+
+body{
+    font-family: Snell Roundhand;
+    font-style: oblique;
+}
+
+h1,h2,h3,h4,h5,h6{ 
+    font-size: 24pt;
+    color: #ECC9EC
 }
 
 @media print {
