@@ -3,6 +3,7 @@ title: "Anne-Charlotte's Blog"
 output_dir: "docs"
 favicon: logo.gif
 navbar:
+
   left:
   - text: 
   right:
