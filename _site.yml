@@ -16,6 +16,10 @@ navbar:
           href: tableofcontents.html
         - text: "M.E.A.L."
           href: meal.html
+    - text: "Date Sciences"
+      menu:
+        - text: "Table of contents"
+          href: tableofcontentsssd.html
     - text: "About Me"
       href: "posts/about/index.html"
     - icon: fab fa-github
