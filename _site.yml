@@ -15,7 +15,7 @@ navbar:
         - text: "Table of contents"
           href: tableofcontents.html
         - text: "M.E.A.L."
-          href: meal.html
+          href: "meal/meal.html"
     - text: "Date Sciences"
       menu:
         - text: "Table of contents"

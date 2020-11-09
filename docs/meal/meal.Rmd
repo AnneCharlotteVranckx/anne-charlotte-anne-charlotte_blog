@@ -1,0 +1,34 @@
+---
+title: "My English Activity Log : MEAL"
+author:
+  - name: "Vranckx Anne-Charlotte" 
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+output: distill::distill_article
+---
+
+> September 2020
+
+- **Sept. 20th** : I did quizzes (differences between the present continuous and the past simple) on Internet.
+
+- **Sept. 23th** : I downloaded *"LyricsTraining"* on my phone and played with the Lady Gaga songs. It was very funny ! I didn't see the time pass.
+
+- **Sept. 28th** : I downloaded the *"BBC News"* app and read articles about Mars.
+
+> October 2020
+
+- **Oct. 5th** : I started new conversations on *"Speaky"*. This is an app to have penpals. This app is cool but I prefer *"Hello Talk"*. Penpals on *Speaky* are not trustworthy. They are more friendly on *Hello Talk*.
+
+- **Oct. 16th** : I played a game with my family. The game consists to be all around a table. The first member has to say a word in English and the second has to say an synonym. The third has to say a synonym etc. If a person can not say a synonym, he gets a point. The person with less points at the end of the game wins the game.
+
+- **Oct. 17th** : I started to follow a tutorial on *YouTube*. It explains how to make a crochet oversized bobble cardigan. I have to admit that the vocabulary is not easy and doesn't concern the sciences. Nevermind, I am very excited to wear it when it's finished.
+
+- **Oct. 19th** : I decided to study the vocabulary of the first unit on Quizzlet. It was interesting but we can not study with the flashcards. I can read it but I can not say if it is the good answer or not ; it is too bad.
+
+> November 2020
+
+- **Nov. 2nd** : I started to follow an other tutorial on *YouTube* to learn how to do a tight dress in crochet. It seems funny ! We will see.
+
+- **Nov. 8th** : Well ... I think I love watching tutorials on *YouTube*. I want to please my boyfriend with a very special hot chocolate. I wanted to know how to put a very cute bear cub in 3D on the hot chocolate with milk froth. And finally, it doesn't seem complicated. I'll try and let you know ^^
+

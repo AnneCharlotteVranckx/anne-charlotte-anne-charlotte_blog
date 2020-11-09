@@ -67,7 +67,7 @@ Researchers have to compare the benefits of antibiotics (which are on short-term
 
 # Analysis Table
 ***
-| **Basic article informations**      | / |
+| **Basic article informations**      | **Informations** |
 | ----- | ----- |
 |**Researchers** | Carolyn Wilke (who wrote the article), Helen Vuong and her colleagues, Cathryn Nagler (not involved in the study), University of Chicago, Carolina Tropini |
 | **Published in**  | in ScienceNews / on September 23, 2020  

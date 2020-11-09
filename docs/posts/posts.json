@@ -11,12 +11,12 @@
         }
       }
     ],
-    "date": "2020-10-27",
+    "date": "2020-10-30",
     "categories": [
       "English for Science"
     ],
     "preview": "posts/article1/mouse.jpg",
-    "last_modified": "2020-10-27T08:04:08+01:00"
+    "last_modified": "2020-10-30T13:19:21+01:00"
   },
   {
     "path": "posts/about/",
@@ -36,22 +36,5 @@
     "last_modified": "2020-10-21T21:33:29+02:00",
     "preview_width": 660,
     "preview_height": 819
-  },
-  {
-    "path": "posts/meal/",
-    "title": "My English Activity Log : MEAL",
-    "description": {},
-    "author": [
-      {
-        "name": "Vranckx Anne-Charlotte",
-        "url": {}
-      }
-    ],
-    "date": "2020-10-21",
-    "categories": [
-      "English for Science"
-    ],
-    "preview": {},
-    "last_modified": "2020-10-21T21:34:21+02:00"
   }
 ]
