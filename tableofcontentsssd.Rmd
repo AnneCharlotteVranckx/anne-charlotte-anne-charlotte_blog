@@ -7,7 +7,7 @@ categories:
   - "Data Science"
 output: distill::distill_article
 ---
-> Cours article sur un graphique en anglais
+> Court article sur un graphique en anglais
 
 [Graphic description](https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/posts/2020-11-15-graphicdescription/)
 
