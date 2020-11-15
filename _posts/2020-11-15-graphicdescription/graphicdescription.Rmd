@@ -5,7 +5,7 @@ description: |
 author:
   - name: Anne-Charlotte Vranckx
     url:
-      https://github.com/AnneCharlotteVranckx: {https://github.com/AnneCharlotteVranckx}
+      https://github.com/AnneCharlotteVranckx: {https://github.com/AnneCharlotteVranckx}::
 date: "`r Sys.Date()`"
 preview: ../../images/urchin.jpg
 categories:

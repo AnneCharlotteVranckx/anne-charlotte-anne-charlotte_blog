@@ -4,8 +4,11 @@ author:
   - name: "Vranckx Anne-Charlotte" 
 date: "`r Sys.Date()`"
 categories:
-  - "Date Science"
+  - "Data Science"
 output: distill::distill_article
 ---
+> Cours article sur un graphique en anglais
 
-En cours d'écriture
+[Graphic description](https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/posts/2020-11-15-graphicdescription/)
+
+![Description of a graph representing the evolution of the skeletal mass according to the origin of the sea urchins.](images/urchin.jpg)
