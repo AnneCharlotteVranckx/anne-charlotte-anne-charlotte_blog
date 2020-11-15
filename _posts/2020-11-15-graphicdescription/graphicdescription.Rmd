@@ -1,0 +1,31 @@
+---
+title: "Graphic_description"
+description: |
+  A short description of the post.
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      https://github.com/AnneCharlotteVranckx: {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "Data Sciences I"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup}
+SciViews::R
+```
+
+# Import and data description
+
+```{r importation}
+urchin <- read("urchin_bio", package = "data.io")
+```
+
+These data contain 19 variable measurements on *Paracentrotus lividus*. This animal is an urchin. Individuals come from fishery (Brittany, France) and from a sea urchins farm in Normandy (France).
+
+# Creation of the graphic
+
+

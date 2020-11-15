@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2020-11-15-graphicdescription/",
+    "title": "Graphic_description",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {
+            "https://github.com/AnneCharlotteVranckx": {}
+          }
+        }
+      }
+    ],
+    "date": "2020-11-15",
+    "categories": [
+      "Data Sciences I"
+    ],
+    "preview": {},
+    "last_modified": "2020-11-15T15:12:39+01:00"
+  },
+  {
     "path": "posts/article1/",
     "title": "Article 1",
     "description": "A mother mouse’s gut microbes help wire her pup’s brain",

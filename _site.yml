@@ -5,7 +5,7 @@ favicon: logo.gif
 navbar:
 
   left:
-  - text: 
+  - text:
   right:
     - image: logo.gif
     - text: "Home"
