@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2020-11-15-graphicdescription/",
-    "title": "Graphic_description",
-    "description": "A short description of the post.",
+    "title": "Graphic description",
+    "description": "Description of a graph representing the evolution of the skeletal mass according to the origin of the sea urchins.",
     "author": [
       {
         "name": "Anne-Charlotte Vranckx",
@@ -17,8 +17,8 @@
     "categories": [
       "Data Sciences I"
     ],
-    "preview": {},
-    "last_modified": "2020-11-15T15:12:39+01:00"
+    "preview": "posts/2020-11-15-graphicdescription/../../images/urchin.jpg",
+    "last_modified": "2020-11-15T16:29:44+01:00"
   },
   {
     "path": "posts/article1/",

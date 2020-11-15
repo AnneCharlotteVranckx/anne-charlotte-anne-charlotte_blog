@@ -1,12 +1,13 @@
 ---
-title: "Graphic_description"
+title: "Graphic description"
 description: |
-  A short description of the post.
+  Description of a graph representing the evolution of the skeletal mass according to the origin of the sea urchins.
 author:
   - name: Anne-Charlotte Vranckx
     url:
       https://github.com/AnneCharlotteVranckx: {https://github.com/AnneCharlotteVranckx}
 date: "`r Sys.Date()`"
+preview: ../../images/urchin.jpg
 categories:
   - "Data Sciences I"
 output:
@@ -14,18 +15,31 @@ output:
     self_contained: false
 ---
 
-```{r setup}
+```{r setup, include=FALSE}
 SciViews::R
 ```
 
 # Import and data description
 
 ```{r importation}
-urchin <- read("urchin_bio", package = "data.io")
+urchin <- data.io::read("urchin_bio", package = "data.io")
 ```
 
-These data contain 19 variable measurements on *Paracentrotus lividus*. This animal is an urchin. Individuals come from fishery (Brittany, France) and from a sea urchins farm in Normandy (France).
+These data contain 19 variable measurements on *Paracentrotus lividus Larmarck (1816)*. This animal is a sea urchin. Individuals come from fishery (Brittany, France) and from a sea urchins farm in Normandy (France). These data used in this study come from Professor Philippe Grosjean's research on the growth of these sea urchins.
+
 
 # Creation of the graphic
 
+```{r}
+chart(data = urchin, origin ~ skeleton %fill=% origin) +
+  ggridges::geom_density_ridges(na.rm = TRUE) +
+  ggtitle("Evolution of the mass of the skeleton (g) as a function of origin") +
+  theme(legend.position="bottom") +
+  theme(legend.background = element_rect(fill="white", size = 1, linetype="solid", color="#F0DBF0")) +
+  scale_fill_manual(values = c("#F0DBF0", "#ECC9EC", "purple"))
+```
+
+# Analysis
+
+We observe that sea urchins in the wild and farmed sea urchins have masses that are quite similar. The peak mass is the same in both cases: +/- 3g. We cannot see any considerable difference except that the sea urchins in the wild are more numerous to have a mass between 3 and 20g than farmed urchins.
 
