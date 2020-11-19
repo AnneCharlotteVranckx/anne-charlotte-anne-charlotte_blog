@@ -19,367 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Anne-Charlotte's Blog: Recent publications</title>
+  <title>crabe</title>
+  
+  <meta property="description" itemprop="description" content="A short description of the post."/>
   
   
-  <link rel="icon" type="image/gif" href="logo.gif"/>
-  
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2020-11-15"/>
+  <meta property="article:created" itemprop="dateCreated" content="2020-11-15"/>
+  <meta name="article:author" content="Anne-Charlotte Vranckx"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Anne-Charlotte&#39;s Blog: Recent publications"/>
+  <meta property="og:title" content="crabe"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A short description of the post."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Anne-Charlotte&#39;s Blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Anne-Charlotte&#39;s Blog: Recent publications"/>
+  <meta property="twitter:title" content="crabe"/>
+  <meta property="twitter:description" content="A short description of the post."/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Recent publications"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["crabe"]},{"type":"character","attributes":{},"value":["A short description of the post.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anne-Charlotte Vranckx"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://github.com/AnneCharlotteVranckx"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://github.com/AnneCharlotteVranckx"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]}]},{"type":"character","attributes":{},"value":["11-15-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"NULL"}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1255,536 +927,146 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="crabe_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="crabe_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="crabe_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="crabe_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #F0DBF0;
-    font-size: 20px;
-    font-weight: 350;
-  }
-  
-  .distill-site-nav a {
-    color: #FFA5FF;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: #CDBEFF;
-  }
-  
-  .distill-site-header {
-  }
-  
-  .distill-site-footer {
-  }
-  
-  ul > li::marker {
-    font-size: 1.125em;
-    color: #ECC9EC;
-  }
-  
-  d-article a {
-    border-bottom: 2px solid #ECC9EC;
-    text-decoration: none;
-  }
-  
-  body{
-      font-family: Snell Roundhand;
-      font-style: oblique;
-  }
-  
-  h1,h2,h3,h4,h5,h6{ 
-      font-size: 24pt;
-      color: #ECC9EC
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Recent publications","authors":[]}
+{"title":"crabe","description":"A short description of the post.","authors":[{"author":"Anne-Charlotte Vranckx","authorURL":{"https://github.com/AnneCharlotteVranckx":{"https://github.com/AnneCharlotteVranckx":{}}},"affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2020-11-15T00:00:00.000+01:00","citationText":"Vranckx, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Anne-Charlotte's Blog</a>
-<span class="nav-dropdown-header"></span>
-</div>
-<div class="nav-right">
-<a class="nav-image">
-<img src="logo.gif"/>
-</a>
-<a href="index.html">Home</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-English for Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontents.html">Table of contents</a>
-<a href="meal/meal.html">M.E.A.L.</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Data Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontentsssd.html">Table of contents</a>
-</div>
-</div>
-<span class="nav-dropdown-header">Science by Me</span>
-<a href="posts/about/index.html">About Me</a>
-<a href="https://github.com/AnneCharlotteVranckx/anne-charlotte-anne-charlotte_blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-<style type="text/css">
-
-/* Styles for listing layout (hide title) */
-.layout-listing d-title, .layout-listing .d-title {
-  display: none;
-}
-
-/* Styles for posts lists (not auto-injected) */
-
-
-.posts-with-sidebar {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.posts-list .description h2,
-.posts-list .description p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-.posts-list .description h2 {
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.posts-list h2.post-tag {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 12px;
-}
-.posts-list {
-  margin-top: 60px;
-  margin-bottom: 24px;
-}
-
-.posts-list .post-preview {
-  text-decoration: none;
-  overflow: hidden;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
-}
-
-.post-preview-last {
-  border-bottom: none !important;
-}
-
-.posts-list .posts-list-caption {
-  grid-column: screen;
-  font-weight: 400;
-}
-
-.posts-list .post-preview h2 {
-  margin: 0 0 6px 0;
-  line-height: 1.2em;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.posts-list .post-preview p {
-  margin: 0 0 12px 0;
-  line-height: 1.4em;
-  font-size: 16px;
-}
-
-.posts-list .post-preview .thumbnail {
-  box-sizing: border-box;
-  margin-bottom: 24px;
-  position: relative;
-  max-width: 500px;
-}
-.posts-list .post-preview img {
-  width: 100%;
-  display: block;
-}
-
-.posts-list .metadata {
-  font-size: 12px;
-  line-height: 1.4em;
-  margin-bottom: 18px;
-}
-
-.posts-list .metadata > * {
-  display: inline-block;
-}
-
-.posts-list .metadata .publishedDate {
-  margin-right: 1em;
-}
-
-.posts-list .metadata .tags {
-  margin-top: 1em;
-}
-
-.posts-list .tags .tag {
-  color: rgba(0,0,0,0.67);
-  padding: 0.3em 0.5em;
-  margin: 0;
-  font-size: 80%;
-  border: 1px solid rgba(0,0,0,0.4);
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.posts-list img {
-  opacity: 1;
-}
-
-.posts-list img[data-src] {
-  opacity: 0;
-}
-
-.posts-more {
-  clear: both;
-}
-
-
-.posts-sidebar {
-  font-size: 16px;
-}
-
-.posts-sidebar h3 {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.sidebar-section {
-  margin-bottom: 30px;
-}
-
-.categories ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.categories li {
-  color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
-}
-
-.categories li>a {
-  border-bottom: none;
-}
-
-.categories li>a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.categories .active {
-  font-weight: 600;
-}
-
-.categories .category-count {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-
-@media(min-width: 768px) {
-  .posts-list .post-preview h2 {
-    font-size: 26px;
-  }
-  .posts-list .post-preview .thumbnail {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
-  }
-  .posts-list .post-preview .description {
-    float: left;
-    width: 45%;
-  }
-  .posts-list .post-preview .metadata {
-    float: left;
-    width: 15%;
-    margin-top: 8px;
-  }
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-  }
-  .posts-with-sidebar .posts-list {
-    float: left;
-    width: 72%;
-  }
-  .posts-with-sidebar .posts-sidebar {
-    float: right;
-    width: 20%;
-    margin-top: 60px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
-.downlevel .posts-list .post-preview {
-  color: inherit;
-}
-
-</style>
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace("#", "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if (category == page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption">Recent publications</h1>
-<a href="posts/2020-11-15-graphicdescription/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Data Sciences I"]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 15, 2020</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2020-11-15-graphicdescription/../../images/urchin.jpg"/>
-</div>
-<div class="description">
-<h2>Graphic description</h2>
-<p>Description of a graph representing the evolution of the skeletal mass according to the origin of the sea urchins.</p>
-</div>
-</a>
-<a href="posts/about/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Divers"]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 15, 2020</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/about/../../logo1.png"/>
-</div>
-<div class="description">
-<h2>About Me</h2>
-<p>To know more about me and my frog...</p>
-</div>
-</a>
-<a href="posts/2020-11-15-crabe/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 14, 2020</div>
-</div>
-<div class="thumbnail"></div>
-<div class="description">
-<h2>crabe</h2>
-<p>A short description of the post.</p>
-</div>
-</a>
-<a href="posts/article1/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["English for Science"]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 30, 2020</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/article1/mouse.jpg"/>
-</div>
-<div class="description">
-<h2>Article 1</h2>
-<p>A mother mouse’s gut microbes help wire her pup’s brain</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#Data_Sciences_I">Data Sciences I</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#Divers">Divers</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#English_for_Science">English for Science</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Recent publications</h1>
-
+<h1>crabe</h1>
+<p><p>A short description of the post.</p></p>
 </div>
 
+<div class="d-byline">
+  Anne-Charlotte Vranckx true 
+  
+<br/>11-15-2020
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<h1 id="welcome">Welcome !</h1>
+<h1 id="le-crabe-de-cocotier-birgus-latro">Le crabe de cocotier : <em>Birgus latro</em></h1>
+<hr />
+<p>## A. Classification <sup>[4]</sup></p>
+<table>
+<thead>
+<tr class="header">
+<th>Taxons</th>
+<th>Noms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Règne</td>
+<td>Animalia</td>
+</tr>
+<tr class="even">
+<td>Embranchement</td>
+<td>Arthropoda</td>
+</tr>
+<tr class="odd">
+<td>Sous-embranchement</td>
+<td>Crustacea</td>
+</tr>
+<tr class="even">
+<td>Classe</td>
+<td>Malacostraca</td>
+</tr>
+<tr class="odd">
+<td>Ordre</td>
+<td>Decapoda</td>
+</tr>
+<tr class="even">
+<td>Famille</td>
+<td>Coenobitidae</td>
+</tr>
+<tr class="odd">
+<td>Genre</td>
+<td>Birgus</td>
+</tr>
+<tr class="even">
+<td>Espèce</td>
+<td>Latro</td>
+</tr>
+</tbody>
+</table>
+<h2 id="b.-introduction">B. Introduction</h2>
+<p>Le Crabe de cocotier (<em>Birgus latros</em>) est <strong>l’arthropode</strong> le plus grand et le plus fort du monde terrestre. Il fait partie de la famille des <strong>Bernards l’hermite</strong> ce qui ne le qualifie pas de crabe au sens strict du mot crabe. Ils font partie de cette famille car les jeunes crabes utilisent des coquilles différentes durant leur croissance. <sup>[1][2][5]</sup></p>
 <figure>
-<img src="images/banniere.jpg" alt="" /><figcaption>The main theme of this blog is The Impact of Microorganisms on Metazoans</figcaption>
+<img src="../images/intro.jpg" alt="" /><figcaption>Crabe des cocotiers sur une branche</figcaption>
 </figure>
-<p>I am very happy to welcome you on my blog. This universe is a concentrate of science, scientific news, data science and much more! You will find interesting sections in the header :</p>
+<h2 id="c.-morphologie">C. Morphologie</h2>
+<p>Il a un <strong>odorat</strong> très développé. Cet odorat lui permet de trouver ses nutriments.<sup>[2]</sup> Ses <strong>pinces</strong> sont très développées et très fortes.<sup>[1]</sup> Pour pouvoir <strong>respirer</strong> correctement, il a développé des organes lui permettant de faire des réserves d’eau.</p>
+<p>L’organisme moyen pèse jusqu’à <strong>5 kilogrammes</strong> pour une longueur de <strong>50 centimètres</strong>. <sup>[2][3]</sup> Dans les couples, on a un <strong>dismorphisme sexuel</strong> : le mâle est plus grand que la femelle.<sup>[1]</sup> Ce type de crabe possède une <strong>partie antérieure</strong> qui contient 5 paires de pattes et une partie antérieure (= <strong>abdomen</strong>). Selon l’auteur de la source [1] "Les paires ont des fonctions bien précises selon leur position :</p>
 <ul>
-<li>An “<a href="https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/tableofcontents.html"><strong>English for Science</strong></a>” section that collects a selection of analyses of scientific articles on <strong>The Impact of Microorganisms on Metazoans</strong>. You can also find a multitude of articles related to my English course. All these publications will be exclusively in English.</li>
-<li>A “<a href="https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/tableofcontentsssd.html"><strong>Data Science</strong></a>” section that gathers a multitude of works. These works allow me to better understand the use of RStudio and data processing. These works will allow me to be better trained for my future job: researcher. The publications in this section will be in French and English.</li>
-<li>A “<strong>Science by me</strong>” section which will be content that I will find interesting to share with you. It will go from comments on an interesting article, to go further in one of the subjects of my courses, …</li>
+<li>La paire de pattes antérieures ont des <strong>grosses pinces</strong> qui servent à casser les noix de coco et à soulever des objets lourds jusqu’à <strong>28 kilogrammes</strong>.</li>
+<li>Les 2 paires qui les suivent leur permettent de se <strong>déplacer</strong>. Les extrémités de la <strong>troisième paire</strong> sont <strong>biramées</strong> afin de gravir les arbres jusqu’à une hauteur de 6 mètres.</li>
+<li>Les 2 pattes postérieures sont minuscules.</li>
+<li>La femelle possède 3 <strong>pléopodes</strong> pour porter les oeufs. Ces “pattes” sont en réalité des appendices articulés du côté gauche de l’organisme."</li>
+</ul>
+<p>Sur la deuxième et la troisième paires, les pattes possèdent des sortes de griffes pour permettre son déplacement sur les troncs d’arbres, pour se fixer à des substrats, … <sup>[5]</sup></p>
+<p><img src="../../../a01ga_20m_mardown-AnnCharlotteVranckx/images/morphologie.jpg" /></p>
+<h2 id="d.-mode-de-vie">D. Mode de vie</h2>
+<p>Il passe sa vie en haut des cocotiers pour fuir la <strong>chaleur</strong> et les <strong>prédateurs</strong> dans le but de survivre. <sup>[2]</sup> Cet animal est <strong>terrestre</strong> mais il est important de noter qu’il vit les 3 ou 4 premières années dans des <strong>milieux marins</strong>. Ses organes vont ensuite se spécialiser pour lui permettre de vivre sur la terre. Le mâle habite généralement plus loin des côtes que les femelles (voir reproduction). Ces crabes se cachent la journée dans des cachettes et ils cherchent leur nourriture la nuit. <sup>[3]</sup></p>
+<p>### Localisation <sup>[1][2]</sup></p>
+<p>On les retrouve dans des <strong>îles</strong> et des <strong>îlots Indo-Pacifique</strong>.</p>
+<h2 id="e.-alimentation-1">E. Alimentation <sup>[1]</sup></h2>
+<p>Sa force incroyable contenue dans ses pinces lui permet de casser des noix de coco. Il se nourrit la <strong>nuit</strong>, quand le <strong>temps est gris</strong> ou dans des <strong>endroits ombragés</strong> pour assurer sa survie. Il se déplace rarement, voir pas du tout, durant le jour. Son régime alimentaire peut se décrire comme suit :</p>
+<ul>
+<li><p><strong>Fruits</strong></p></li>
+<li><p>Noix de coco</p></li>
+<li><p>Fruits des pandanus</p></li>
+<li><p>Papyes</p></li>
+<li><p>Bananes</p></li>
+<li><p>…</p></li>
+<li><p><strong>Végétaux</strong></p>
+<ul>
+<li>Bois</li>
+</ul></li>
+<li><p>…</p></li>
+<li><p><strong>Animaux</strong></p>
+<ul>
+<li>Oeufs de tortues</li>
+</ul></li>
+<li><p>Cadavres d’animaux en putréfaction</p>
+<ul>
+<li>Exuvies de crustacés</li>
+<li>Rats morts</li>
+<li>Cannibalisme</li>
+<li>…</li>
+</ul></li>
+<li><p><strong>Autres</strong></p>
+<ul>
+<li>Voles dans les habitations</li>
+</ul></li>
+</ul>
+<h2 id="f.-reproduction">F. Reproduction</h2>
+<p>Ils se reproduisent <strong>du mois de mai au mois de septembre</strong> sur des terres fermes. Leur reproduction est fréquente et rapide. <sup>[1]</sup> Il y a un réel <strong>jeu de séduction</strong> entre les 2 membres du couple. L’accouplement dure en moyenne un quart d’heure. Après avoir pondu ses oeufs, la femelle <strong>garde ses oeufs sur son abdomen</strong> pendant plusieurs semaines. Elle les relargue au début de <strong>l’automne</strong> près de la mer (d’où l’importance de ne pas vivre trop loin de la mer). Ces oeufs vont donner des <strong>larves</strong>. (<strong>zoee</strong>) Pendant 1 mois, ces larves vont utiliser des <strong>coquilles</strong> pour se développer en toute sécurité. Pendant les 2 premières années de leur vie, les “bébés” crabes vont vivre en tant que Bernard l’hermite et ils vont rejoindre le milieu marin 3 à 4 ans après. <sup>[5]</sup></p>
+<h2 id="g.-webographie">G. Webographie</h2>
+<ul>
+<li>[1] (<a href="https://fr.wikipedia.org/wiki/Crabe_de_cocotier" class="uri">https://fr.wikipedia.org/wiki/Crabe_de_cocotier</a>)</li>
+<li>[2] (<a href="https://www.futura-sciences.com/sante/actualites/vie-crabe-coco-avait-bien-senti-5366/" class="uri">https://www.futura-sciences.com/sante/actualites/vie-crabe-coco-avait-bien-senti-5366/</a>)</li>
+<li>[3] (<a href="https://doris.ffessm.fr/Especes/Birgus-latro-Crabe-des-cocotiers-2027" class="uri">https://doris.ffessm.fr/Especes/Birgus-latro-Crabe-des-cocotiers-2027</a>)</li>
+<li>[4] (<a href="https://inpn.mnhn.fr/espece/cd_nom/459621/tab/taxo" class="uri">https://inpn.mnhn.fr/espece/cd_nom/459621/tab/taxo</a>)</li>
+<li>[5] (<a href="https://boowiki.info/art/bernard-l-ermite/crabe-de-cocotier.html" class="uri">https://boowiki.info/art/bernard-l-ermite/crabe-de-cocotier.html</a>)</li>
 </ul>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

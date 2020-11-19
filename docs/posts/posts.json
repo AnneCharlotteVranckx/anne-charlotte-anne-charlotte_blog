@@ -40,6 +40,25 @@
     "preview_height": 819
   },
   {
+    "path": "posts/2020-11-15-crabe/",
+    "title": "crabe",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {
+            "https://github.com/AnneCharlotteVranckx": {}
+          }
+        }
+      }
+    ],
+    "date": "2020-11-15",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-11-15T18:46:41+01:00"
+  },
+  {
     "path": "posts/article1/",
     "title": "Article 1",
     "description": "A mother mouse’s gut microbes help wire her pup’s brain",
