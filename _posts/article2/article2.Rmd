@@ -9,7 +9,7 @@ author:
 date: "`r Sys.Date()`"
 categories:
   - "English for Science"
-preview: virus.jpg
+preview: doctor.jpg
 output:
   distill::distill_article:
     self_contained: false
@@ -26,7 +26,7 @@ I decided to choose an [article](https://www.the-scientist.com/news-opinion/disr
 I consulted the page on Tuesday, 25th September 2020.
 The article has been published on August 6th, 2020.
 
-**Word count** :
+**Word count** : around 550-600 words
 
 # Summary
 ***
@@ -49,6 +49,7 @@ The Guardian reports that humans have altered the landscape of more than half of
 
 “Our findings provide a context for thinking about how to manage land use changes more sustainably, in ways that take into account potential risks not only to biodiversity, but also to human health,” Redding explains in a statement. 
 
+![Viruses that may be present in the animals around us](virus.jpg)
 
 # Vocabulary
 ***
