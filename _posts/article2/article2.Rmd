@@ -1,0 +1,73 @@
+---
+title: "Article 2"
+description: |
+  Animals that can host pathogens dangerous to humans, such as rodents, birds, and bats, are proportionately more common in human-occupied spaces than in remote areas.
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: virus.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Source, date & words
+***
+
+I decided to choose an [article](https://www.the-scientist.com/news-opinion/disrupted-habitats-have-more-zoonotic-disease-hosts-study-67802) from *TheScientist*.
+I consulted the page on Tuesday, 25th September 2020.
+The article has been published on August 6th, 2020.
+
+**Word count** :
+
+# Summary
+***
+
+When humans retrofit the landscape through urbanization or agriculture the wildlife that occupied that space becomes displaced. According to a study published in August 2020 in Nature, animals that stay around this area have a greater proportion of species that host zoonotic diseases than those in natural areas. 
+
+The researchers use the Projecting Responses of Ecological Diversity in Changing Terrestrial Systems (PREDICTS) database in search of any pattern involving altered land and the presence of animals capable of hosting pathogens that can be harmful to humans, called zoonoses or zoonotic diseases. The data from PREDICTS comes from all over the world and includes information on 376 species known to carry zoonoses and around 6,600 other species that don’t. They concluded that zoonotic disease hosts represent a greater proportion of the animals in areas with altered land and higher human activity than in remote, less-affected areas.
+
+Here is a video to illustrate what are [zoonoses](https://www.youtube.com/watch?v=7rQanJcCUXw&ab_channel=STAT).
+
+“What this means is that animal communities in more human-dominated landscapes end up with a higher proportion of disease-carrying species, both in terms of species richness and in the total number of individuals,” co-lead author David Redding, an ecologist at University College London’s Centre for Biodiversity & Environment Research, tells UPI.
+
+The Guardian reports that many animals able to live in human-occupied areas, such as rodents, bats, and pigeons, are typically small and highly mobile. They have also the capacity to reproduce quickly and in large numbers. This method, choosing quantity over quality, can come at the expense of the animal’s immune system, making them more susceptible to zoonoses.
+
+We don't know the dangers of the relationship between habitat disturbance and zoonotic disease hosts, but we think that it could have an impact on human health. For instance, there is evidence SARS-CoV-2 came from bats and made its way into humans, gripping the entire globe in lockdowns, distancing, and economic declines.
+
+“The COVID-19 pandemic triggered by a coronavirus of animal origin has awakened the world to the threat that zoonotic diseases pose to humans,” Richard Ostfeld, a disease ecologist at the Cary Institute of Ecosystem Studies in New York, and Felicia Keesing, an ecologist at Bard College in New York, comment in Nature. “With this recognition has come a widespread misperception that wild nature is the greatest source of zoonotic disease.”
+
+The Guardian reports that humans have altered the landscape of more than half of the habitable land on the planet. Although the rate of population growth is declining, the United Nations predicts that the number of humans will balloon to 9.7 billion by the year 2050, requiring more land use to house and feed everyone.
+
+“Our findings provide a context for thinking about how to manage land use changes more sustainably, in ways that take into account potential risks not only to biodiversity, but also to human health,” Redding explains in a statement. 
+
+
+# Vocabulary
+***
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| to alter | to change or modify something | to change, to retrofit |
+| harmful | causing or likely to cause harm | detrimental |
+| to trigger | cause (a device) to function | to activate |
+| to balloon | move from a lower position to a higher one; come or go up | to rise |
+
+# Analysis Table
+***
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+|**Researchers** | **Lisa Winter** (author), researchers from *Nature*, **David Redding** (an ecologist at University College London’s Centre for Biodiversity & Environment Research), researchers from *The Guardian*, **Richard Ostfeld** (a disease ecologist at the Cary Institute of Ecosystem Studies in New York), **Felicia Keesing** (an ecologist at Bard College in New York), **Mme Redding** |
+| **Published in**  | The Scientist, on August 6 2020 |  
+| **General topic** | The development of zoonoses (or zoonotic diseases) on metazoans living in a altered land with a higher human activity |
+| **Procedure/what was examinated?** | Using a biodatabase : Projecting Responses of Ecological Diversity in Changing Terrestrial Systems (PREDICTS) **=>** search of any pattern involving altered land and the presence of animals capable of hosting pathogens that can be harmful to humans, called zoonoses or zoonotic diseases **=>** many animals able in human-occupied areas have the **=>** capacity to reproduce quickly and in large numbers **=>** more susceptible to zoonoses |
+| **Conclusion/discoveries** | zoonotic disease hosts represent a greater proportion of the animals in areas with altered land and higher human activity **=>** animal communities in more human-dominated landscapes end up with a higher proportion of disease-carrying species, both in terms of species richness and in the total number of individuals **=>** possible impact on human|
+| **Remaining questions**| What can we do to reduce infections from these animals to humans? What can we do to make these animals less susceptible to these pathogens? |
