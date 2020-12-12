@@ -26,7 +26,7 @@ I decided to choose an [article](https://www.nytimes.com/2020/09/24/science/viru
 I consulted the page on Saturday, 12th December 2020.
 The article has been published on September 25th, 2020.
 
-**Word count** : 
+**Word count** : 660 for the summary & 213 for the analysis
 
 ***
 # Summary
@@ -83,8 +83,8 @@ Here we see a very interesting short [video](https://www.youtube.com/watch?v=pvO
 |**Researchers** | **Rika Anderson** (a microbial ecologist at Carleton College in Minnesota who was not involved in the study), the team led by **Ramunas Stepanauskas** (a microbial ecologist at the Bigelow Laboratory for Ocean Sciences in Maine), **Julia Brown** (a microbiologist at Bigelow Laboratory and the study’s first author), **Rosie Alegado** (a microbial oceanographer at the University of Hawaii at Manoa who was not involved in the study), **Henry N. Williams** (a microbial ecologist at Florida A&M University who wasn’t involved in the study), **Curtis Suttle** (a microbial ecologist who led several early studies on protists that might eat viruses) |
 | **Published in**  | The New York Times, on September 25th, 2020|  
 | **General topic** | Some protists could eat viruses as a strict diet |
-| **Procedure/what was examinated?** | collection of seawater samples from the Gulf of Maine and the Mediterranean Sea **=>** 1,700 individual protists **=>** opening every single protist **=>** analysis of the different genetic material from the one of protists **=>** analysis to know which kind of viruses were found in the cells|
-| **Conclusion/discoveries** | They didn't find a lot of bacterial genetic material **=>** they found viruses geneteci material at all time but it doesn't mean that viruses were used to be eaten. **=>** they found that some types of viruses were found only in certain groups of protists **=>** some protists just snack viruses and other are virovores|
+| **Procedure/what was examinated?** | collection of seawater samples from the Gulf of Maine and the Mediterranean Sea **=>** 1,700 individual protists **=>** opening every single protist **=>** analysis of the different genetic material from the one of protists **=>** analysis to know which kind of viruses were found in the cells |
+| **Conclusion/discoveries** | They didn't find a lot of bacterial genetic material **=>** they found viruses geneteci material at all time but it doesn't mean that viruses were used to be eaten. **=>** they found that some types of viruses were found only in certain groups of protists **=>** some protists just snack viruses and other are virovores |
 | **Remaining questions**| - |
 
 
