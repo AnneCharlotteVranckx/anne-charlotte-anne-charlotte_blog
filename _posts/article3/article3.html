@@ -19,371 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Anne-Charlotte's Blog: Table of Contents</title>
+  <title>Article 3</title>
   
+  <meta property="description" itemprop="description" content="Nothing Eats Viruses, Right? Meet Some Hungry Protists"/>
   
-  <link rel="icon" type="image/gif" href="logo.gif"/>
   
   <!--  https://schema.org/Article -->
   <meta property="article:published" itemprop="datePublished" content="2020-12-12"/>
   <meta property="article:created" itemprop="dateCreated" content="2020-12-12"/>
-  <meta name="article:author" content="Vranckx Anne-Charlotte"/>
+  <meta name="article:author" content="Anne-Charlotte Vranckx"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Anne-Charlotte&#39;s Blog: Table of Contents"/>
+  <meta property="og:title" content="Article 3"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Nothing Eats Viruses, Right? Meet Some Hungry Protists"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Anne-Charlotte&#39;s Blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Anne-Charlotte&#39;s Blog: Table of Contents"/>
+  <meta property="twitter:title" content="Article 3"/>
+  <meta property="twitter:description" content="Nothing Eats Viruses, Right? Meet Some Hungry Protists"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Table of Contents"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Vranckx Anne-Charlotte"]}]}]},{"type":"character","attributes":{},"value":["2020-12-12"]},{"type":"character","attributes":{},"value":["English for Science"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","preview","output"]}},"value":[{"type":"character","attributes":{},"value":["Article 3"]},{"type":"character","attributes":{},"value":["Nothing Eats Viruses, Right? Meet Some Hungry Protists\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anne-Charlotte Vranckx"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://github.com/AnneCharlotteVranckx"]}},"value":[{"type":"NULL"}]}]}]},{"type":"character","attributes":{},"value":["2020-12-12"]},{"type":"character","attributes":{},"value":["English for Science"]},{"type":"character","attributes":{},"value":["bacteria.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["article3_files/bowser-1.9.3/bowser.min.js","article3_files/distill-2.2.21/template.v2.js","article3_files/jquery-1.11.3/jquery.min.js","article3_files/webcomponents-2.0.0/webcomponents.js","bacteria.jpg"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1259,64 +927,13 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="article3_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="article3_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="article3_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="article3_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #F0DBF0;
-    font-size: 20px;
-    font-weight: 350;
-  }
-  
-  .distill-site-nav a {
-    color: #FFA5FF;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: #CDBEFF;
-  }
-  
-  .distill-site-header {
-  }
-  
-  .distill-site-footer {
-  }
-  
-  ul > li::marker {
-    font-size: 1.125em;
-    color: #ECC9EC;
-  }
-  
-  d-article a {
-    border-bottom: 2px solid #ECC9EC;
-    text-decoration: none;
-  }
-  
-  body{
-      font-family: Snell Roundhand;
-      font-style: oblique;
-  }
-  
-  h1,h2,h3,h4,h5,h6{ 
-      font-size: 24pt;
-      color: #ECC9EC
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
 
@@ -1325,93 +942,135 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Table of Contents","authors":[{"author":"Vranckx Anne-Charlotte","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2020-12-12T00:00:00.000+01:00","citationText":"Anne-Charlotte, 2020"}
+{"title":"Article 3","description":"Nothing Eats Viruses, Right? Meet Some Hungry Protists","authors":[{"author":"Anne-Charlotte Vranckx","authorURL":{"https://github.com/AnneCharlotteVranckx":{}},"affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2020-12-12T00:00:00.000+01:00","citationText":"Vranckx, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Anne-Charlotte's Blog</a>
-<span class="nav-dropdown-header"></span>
-</div>
-<div class="nav-right">
-<a class="nav-image">
-<img src="logo.gif"/>
-</a>
-<a href="index.html">Home</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-English for Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontents.html">Table of contents</a>
-<a href="meal/meal.html">M.E.A.L.</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Data Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontentsssd.html">Table of contents</a>
-</div>
-</div>
-<span class="nav-dropdown-header">Science by Me</span>
-<a href="posts/about/index.html">About Me</a>
-<a href="https://github.com/AnneCharlotteVranckx/anne-charlotte-anne-charlotte_blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Table of Contents</h1>
-
+<h1>Article 3</h1>
+<p><p>Nothing Eats Viruses, Right? Meet Some Hungry Protists</p></p>
 </div>
 
 <div class="d-byline">
-  Vranckx Anne-Charlotte  
+  Anne-Charlotte Vranckx true 
   
 <br/>2020-12-12
 </div>
 
 <div class="d-article">
-<p>Here is the <strong>table of contents</strong> : the skeleton of my <strong>portfolio</strong>. The portfolio is the main project of this blog : You will read some interesting analyzes of scientific articles.</p>
-<p>In this publication, you will find the <strong>number of my articles</strong> and the <strong>main subject</strong>.</p>
-<blockquote>
-<p>Article 1</p>
-</blockquote>
-<p><a href="https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/posts/article1/">A mother mouse’s gut microbes help wire her pup’s brain</a></p>
-<blockquote>
-<p>Article 2</p>
-</blockquote>
-<p><a href="https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/posts/article2/">Animals that can host pathogens dangerous to humans, such as rodents, birds, and bats, are proportionately more common in human-occupied spaces than in remote areas</a></p>
-<blockquote>
-<p>Article 3</p>
-</blockquote>
-<blockquote>
-<p>Article 4</p>
-</blockquote>
-<blockquote>
-<p>Article 5</p>
-</blockquote>
-<blockquote>
-<p>Article 6</p>
-</blockquote>
-<blockquote>
-<p>Article 7</p>
-</blockquote>
+<hr />
+<h1 id="source-date-words">Source, date &amp; words</h1>
+<p>I decided to choose an <a href="https://www.nytimes.com/2020/09/24/science/virus-eaters-protists.html">article</a> from <em>The New York Times</em>. I consulted the page on Saturday, 12th December 2020. The article has been published on September 25th, 2020.</p>
+<p><strong>Word count</strong> :</p>
+<hr />
+<h1 id="summary">Summary</h1>
+<p>On Earth, there is an amount of viruses biomass that is the equivalent of about 25 billion human beings. There must inevitably be a species that takes advantage of this incredible biomass to feed itself.</p>
+<p>These organisms could be the protists. Protists are microscopic and often single-celled organisms. We can find it by billions and trillions in the seawater and some might slurp up marine viruses. If the findings pan out, rather than acting only as disease-causing agents of chaos and snuffing out life, viruses might in some cases play a role in fueling and sustaining it.</p>
+<p>The new study alone can’t nail the consumptive connection between protists and viruses. But protists have been found in a mind-boggling array of habitats, from the rotting stumps of trees to animal guts, and may have evolved at least as many strategies to keep themselves fed. In reality, protists eat a lot of things and it is not suprising if we conclude that they eat viruses.</p>
+<p>The team led by Ramunas Stepanauskas studies the prey preferences of marine protists, many of which chow down on bacteria but Dr. Stepanauskas said that protists eat other unicellulars.</p>
+<p>The researchers collected seawater samples from the Gulf of Maine and the Mediterranean Sea : they collected nearly 1,700 individual protists. They then split the cells open, one at a time, and analyzed their contents. Any genetic material that differed from a protist’s was probably the signature of something the microbes had eaten.</p>
+<p>But after repetitive rounds of analysis, the researchers found that there wasn’t a whole lot of bacterial material to be found : there were viruses of all shapes and sizes, sometimes gunking up cells by the dozens. Protists from two groups, choanozoa and picozoa, were never found without viral genes in their cellular cargo.</p>
+<p>We can not forget that in the 1990s, researchers had posited that some protist species might be capable of co-opting viruses for food. In some early experiments, scientists slurried the two types of microbes together in the lab to see if the protists would consume and digest the viruses. The results were encouraging but quiclky forgotten.</p>
+<p>Dr. Brown said genetic experiments that examine one cell at a time could help bolster the case for viral consumption, because they could show what protists have eaten under natural conditions. But we have to keep in mind that finding viral genetic material in or around a cell doesn’t guarantee that a virus was once lunch. For example, some of the viruses might have infected the protists or simply become stuck to the surfaces of the cells. But Dr. Brown and Dr. Stepanauskas said that some types of viruses were found only in certain groups of protists, hinting that the interactions weren’t just happenstance. And many of the viruses identified are thought to be capable of infecting only bacteria, not protists. Another possibility is that the viruses had infected bacteria that were then gobbled up by protists, creating a sort of microbial turducken.</p>
+<p>H. N. Williams pointed out that some protists might ingest viruses incidentally. “The protists may be in a highly grazing mode much of the time,” he said. Anything in a protist’s path within a certain size range could be downed like so much debris, with little nutritional consequence.</p>
+<p>And if viruses do appear on the protist menu, we don’t know if it remains unclear whether they’re a main course or a paltry side dish. Some protists could occasionally snack on viruses just to have a variant diet, while others just eat viruses. Dr. Stepanauskas said that because of their extremely small size, picozoa — which are less than three micrometers across, or about one-thirtieth the width of a human hair — might eat only viruses. “They may not even be able to consume larger particles,” he said.</p>
+<p>C. Suttle said that some choanozoa could be die-hard virovores (= eat viruses) but this affirmation didn’t be published.</p>
+<hr />
+<h1 id="vocabulary">Vocabulary</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Word from the text</th>
+<th>Definition</th>
+<th>Synonyms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>biomass</td>
+<td>the total quantity or weight of organisms in a given area or volume</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>to nosh</td>
+<td>to eat food enthusiastically or greedily</td>
+<td>to eat</td>
+</tr>
+<tr class="odd">
+<td>to struggle</td>
+<td>to make forceful or violent efforts to get free of restraint or constriction</td>
+<td>to fight</td>
+</tr>
+<tr class="even">
+<td>to seethe</td>
+<td>to be filled with intense but unexpressed anger</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>to pan out</td>
+<td>to end up; to conclude</td>
+<td>to conclude</td>
+</tr>
+<tr class="even">
+<td>to gunk up</td>
+<td>to attack something</td>
+<td>to fight, to attack</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="interpretation-with-media">Interpretation with media</h1>
+<p>Here we see a very interesting short <a href="https://www.youtube.com/watch?v=pvOz4V699gk&amp;ab_channel=VijayanT">video</a> that shows how an amoeba can eat 2 bacteria. It emits 2 pseudopods (which are extensions of its membrane) which allow it to trap the bacteria. Once the bacteria are trapped, the amoeba’s enzymes will slowly digest them while the pseudopods will tighten.</p>
+<hr />
+<h1 id="analysis-table">Analysis Table</h1>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Basic article informations</strong></th>
+<th><strong>Informations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Researchers</strong></td>
+<td><strong>Rika Anderson</strong> (a microbial ecologist at Carleton College in Minnesota who was not involved in the study), the team led by <strong>Ramunas Stepanauskas</strong> (a microbial ecologist at the Bigelow Laboratory for Ocean Sciences in Maine), <strong>Julia Brown</strong> (a microbiologist at Bigelow Laboratory and the study’s first author), <strong>Rosie Alegado</strong> (a microbial oceanographer at the University of Hawaii at Manoa who was not involved in the study), <strong>Henry N. Williams</strong> (a microbial ecologist at Florida A&amp;M University who wasn’t involved in the study), <strong>Curtis Suttle</strong> (a microbial ecologist who led several early studies on protists that might eat viruses)</td>
+</tr>
+<tr class="even">
+<td><strong>Published in</strong></td>
+<td>The New York Times, on September 25th, 2020</td>
+</tr>
+<tr class="odd">
+<td><strong>General topic</strong></td>
+<td>Some protists could eat viruses as a strict diet</td>
+</tr>
+<tr class="even">
+<td><strong>Procedure/what was examinated?</strong></td>
+<td>collection of seawater samples from the Gulf of Maine and the Mediterranean Sea <strong>=&gt;</strong> 1,700 individual protists <strong>=&gt;</strong> opening every single protist <strong>=&gt;</strong> analysis of the different genetic material from the one of protists <strong>=&gt;</strong> analysis to know which kind of viruses were found in the cells</td>
+</tr>
+<tr class="odd">
+<td><strong>Conclusion/discoveries</strong></td>
+<td>They didn’t find a lot of bacterial genetic material <strong>=&gt;</strong> they found viruses geneteci material at all time but it doesn’t mean that viruses were used to be eaten. <strong>=&gt;</strong> they found that some types of viruses were found only in certain groups of protists <strong>=&gt;</strong> some protists just snack viruses and other are virovores</td>
+</tr>
+<tr class="even">
+<td><strong>Remaining questions</strong></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

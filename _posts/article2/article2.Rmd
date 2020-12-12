@@ -19,8 +19,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Source, date & words
 ***
+# Source, date & words
 
 I decided to choose an [article](https://www.the-scientist.com/news-opinion/disrupted-habitats-have-more-zoonotic-disease-hosts-study-67802) from *TheScientist*.
 I consulted the page on Tuesday, 25th September 2020.
@@ -28,8 +28,8 @@ The article has been published on August 6th, 2020.
 
 **Word count** : around 550-600 words
 
-# Summary
 ***
+# Summary
 
 When humans retrofit the landscape through urbanization or agriculture the wildlife that occupied that space becomes displaced. According to a study published in August 2020 in Nature, animals that stay around this area have a greater proportion of species that host zoonotic diseases than those in natural areas. 
 
@@ -51,8 +51,8 @@ The Guardian reports that humans have altered the landscape of more than half of
 
 ![Viruses that may be present in the animals around us](virus.jpg)
 
-# Vocabulary
 ***
+# Vocabulary
 
 | Word from the text | Definition | Synonyms |
 |-----|-----|-----|
@@ -61,8 +61,8 @@ The Guardian reports that humans have altered the landscape of more than half of
 | to trigger | cause (a device) to function | to activate |
 | to balloon | move from a lower position to a higher one; come or go up | to rise |
 
-# Analysis Table
 ***
+# Analysis Table
 
 | **Basic article informations**      | **Informations** |
 | ----- | ----- |

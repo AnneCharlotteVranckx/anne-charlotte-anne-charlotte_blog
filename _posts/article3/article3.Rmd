@@ -1,0 +1,90 @@
+---
+title: "Article 3"
+description: |
+  Nothing Eats Viruses, Right? Meet Some Hungry Protists
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: bacteria.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+# Source, date & words
+
+I decided to choose an [article](https://www.nytimes.com/2020/09/24/science/virus-eaters-protists.html) from *The New York Times*.
+I consulted the page on Saturday, 12th December 2020.
+The article has been published on September 25th, 2020.
+
+**Word count** : 
+
+***
+# Summary
+
+On Earth, there is an amount of viruses biomass that is the equivalent of about 25 billion human beings. There must inevitably be a species that takes advantage of this incredible biomass to feed itself.
+
+These organisms could be the protists. Protists are microscopic and often single-celled organisms. We can find it by billions and trillions in the seawater  and some might slurp up marine viruses.
+If the findings pan out, rather than acting only as disease-causing agents of chaos and snuffing out life, viruses might in some cases play a role in fueling and sustaining it.
+
+The new study alone can’t nail the consumptive connection between protists and viruses. But protists have been found in a mind-boggling array of habitats, from the rotting stumps of trees to animal guts, and may have evolved at least as many strategies to keep themselves fed.
+In reality, protists eat a lot of things and it is not suprising if we conclude that they eat viruses.
+
+The team led by Ramunas Stepanauskas studies the prey preferences of marine protists, many of which chow down on bacteria but Dr. Stepanauskas said that protists eat other unicellulars. 
+
+The researchers collected seawater samples from the Gulf of Maine and the Mediterranean Sea : they collected nearly 1,700 individual protists. They then split the cells open, one at a time, and analyzed their contents. Any genetic material that differed from a protist’s was probably the signature of something the microbes had eaten.
+
+But after repetitive rounds of analysis, the researchers found that there wasn’t a whole lot of bacterial material to be found : there were viruses of all shapes and sizes, sometimes gunking up cells by the dozens. Protists from two groups, choanozoa and picozoa, were never found without viral genes in their cellular cargo.
+
+We can not forget that in the 1990s, researchers had posited that some protist species might be capable of co-opting viruses for food.
+In some early experiments, scientists slurried the two types of microbes together in the lab to see if the protists would consume and digest the viruses. The results were encouraging but quiclky forgotten.
+
+Dr. Brown said genetic experiments that examine one cell at a time could help bolster the case for viral consumption, because they could show what protists have eaten under natural conditions.
+But we have to keep in mind that finding viral genetic material in or around a cell doesn’t guarantee that a virus was once lunch. For example, some of the viruses might have infected the protists or simply become stuck to the surfaces of the cells.
+But Dr. Brown and Dr. Stepanauskas said that some types of viruses were found only in certain groups of protists, hinting that the interactions weren’t just happenstance. And many of the viruses identified are thought to be capable of infecting only bacteria, not protists. Another possibility is that the viruses had infected bacteria that were then gobbled up by protists, creating a sort of microbial turducken.
+
+H. N. Williams pointed out that some protists might ingest viruses incidentally. “The protists may be in a highly grazing mode much of the time,” he said. Anything in a protist’s path within a certain size range could be downed like so much debris, with little nutritional consequence.
+
+And if viruses do appear on the protist menu, we don't know if it remains unclear whether they’re a main course or a paltry side dish. Some protists could occasionally snack on viruses just to have a variant diet, while others just eat viruses. Dr. Stepanauskas said that because of their extremely small size, picozoa — which are less than three micrometers across, or about one-thirtieth the width of a human hair — might eat only viruses. “They may not even be able to consume larger particles,” he said.
+
+C. Suttle said that some choanozoa could be die-hard virovores (= eat viruses) but this affirmation didn't be published. 
+
+***
+# Vocabulary
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| biomass | the total quantity or weight of organisms in a given area or volume | - |
+| to nosh | to eat food enthusiastically or greedily | to eat |
+| to struggle | to make forceful or violent efforts to get free of restraint or constriction | to fight |
+| to seethe | to be filled with intense but unexpressed anger | - |
+| to pan out | to end up; to conclude | to conclude |
+| to gunk up | to attack something | to fight, to attack |
+
+***
+# Interpretation with media
+
+Here we see a very interesting short [video](https://www.youtube.com/watch?v=pvOz4V699gk&ab_channel=VijayanT) that shows how an amoeba can eat 2 bacteria. It emits 2 pseudopods (which are extensions of its membrane) which allow it to trap the bacteria. Once the bacteria are trapped, the amoeba's enzymes will slowly digest them while the pseudopods will tighten.
+
+***
+# Analysis Table
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+|**Researchers** | **Rika Anderson** (a microbial ecologist at Carleton College in Minnesota who was not involved in the study), the team led by **Ramunas Stepanauskas** (a microbial ecologist at the Bigelow Laboratory for Ocean Sciences in Maine), **Julia Brown** (a microbiologist at Bigelow Laboratory and the study’s first author), **Rosie Alegado** (a microbial oceanographer at the University of Hawaii at Manoa who was not involved in the study), **Henry N. Williams** (a microbial ecologist at Florida A&M University who wasn’t involved in the study), **Curtis Suttle** (a microbial ecologist who led several early studies on protists that might eat viruses) |
+| **Published in**  | The New York Times, on September 25th, 2020|  
+| **General topic** | Some protists could eat viruses as a strict diet |
+| **Procedure/what was examinated?** | collection of seawater samples from the Gulf of Maine and the Mediterranean Sea **=>** 1,700 individual protists **=>** opening every single protist **=>** analysis of the different genetic material from the one of protists **=>** analysis to know which kind of viruses were found in the cells|
+| **Conclusion/discoveries** | They didn't find a lot of bacterial genetic material **=>** they found viruses geneteci material at all time but it doesn't mean that viruses were used to be eaten. **=>** they found that some types of viruses were found only in certain groups of protists **=>** some protists just snack viruses and other are virovores|
+| **Remaining questions**| - |
+
+

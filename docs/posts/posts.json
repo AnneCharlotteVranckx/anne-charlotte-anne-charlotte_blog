@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/article3/",
+    "title": "Article 3",
+    "description": "Nothing Eats Viruses, Right? Meet Some Hungry Protists",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {}
+        }
+      }
+    ],
+    "date": "2020-12-12",
+    "categories": [
+      "English for Science"
+    ],
+    "preview": "posts/article3/bacteria.jpg",
+    "last_modified": "2020-12-12T15:10:38+01:00"
+  },
+  {
     "path": "posts/article2/",
     "title": "Article 2",
     "description": "Animals that can host pathogens dangerous to humans, such as rodents, birds, and bats, are proportionately more common in human-occupied spaces than in remote areas.",
