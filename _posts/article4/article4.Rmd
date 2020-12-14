@@ -1,0 +1,72 @@
+---
+title: "Article 4"
+description: |
+  Tests point to a toxic algal bloom that might have led to the unprecedented deaths of hundreds of African elephants in Botswana earlier this year, but the evidence isn’t conclusive.
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: elephant.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+# Source, date & words
+
+I decided to choose an [article](https://www.the-scientist.com/news-opinion/mass-elephant-die-off-caused-by-cyanobacteria-officials-say-67960) from *TheScientist*.
+I consulted the page on Saturday, 12th December 2020.
+The article has been published on September 23th, 2020.
+
+**Word count** : 
+
+***
+# Summary
+
+Hundreds of African elephants dropped dead in one concentrated region in Botswana. These deaths are very mysterious. In response to this, the government decided to have tests done. These tests showed that it was toxins produced by natural cyanobacteria that caused the deaths of the animals.
+
+Where do cyanobacteria live ?
+Cyanobacteria can proliferate in standing water. in this biotop, they produce lethal cyanotoxins, and can grow into large blue-green algal blooms. “Our latest tests have detected cyanobacterial neurotoxins to be the cause of deaths. These are bacteria found in water,” Mmadi Reuben
+
+The government has ordered testing of corpses :
+
+Aerial surveys showed that most carcasses were found around water sources close to the Okavango Delta. These sources are typically tourist safari destinations. "Some elephants were spotted walking dizzily in circles before suddenly dropping dead, face first."
+
+N. McCann said that it is not because we found cyanobacteria in the water means that it is thecause of the elephants death. We need to research further to confirm this hypothese.
+
+Research has not shown that there were any other animals that governed this way by drinking this water except for a horse. Reuben said that elephants suck water with their trunks from underneath. The water they drink is deeper than the water of the other animals. The deep water contains the cyanobacteria.
+
+Reuben said that his team investigated injuries on the carcasses and tested water samples at laboratories in Botswana and the US. He said that it was a “combination of neurotoxins” but he did not gave details and decided to do not say at which institutions tests were made. Other reports showed that tusks had not been removed : the poachers didn't kill the elephants.
+"Reuben added that he wants to monitor waterholes for algal blooms during the next rainy season to prevent any more deaths."
+
+The investigation took so long and the number of deaths continued to rise that environmentalists were furious because elephant populations have declined in the last years and the species is classified as vulnerable on the International Union for Conservation of Nature’s (IUCN) Red List. Some created their own conclusion by saying that elephants succumbed to a rodent virus or anthrax.
+
+In a sad conclusion, in Botswana, all of people blame the elephants for the destruction of cropland. President Mokgweetsi Masisi campaigned in 2019 on promises to keep the elephant population in check. His government has reintroduced some elephant hunting licenses, which were banned by his predecessor.
+
+***
+# Vocabulary
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| tusk | a long pointed tooth, especially one which protrudes from the closed mouth, as in the elephant, walrus, or wild boar | - |
+| poaching | braconnage | - |
+
+***
+# Analysis Table
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+| **Researchers** | **Mmadi Reuben** (principal veterinary officer at the Botswana Department of Wildlife and National Parks), **Niall McCann** (the director of conservation at UK-based charity National Park Rescue) |
+| **Published in**  | TheScientist, on September 23th, 2020|  
+| **General topic** | hundreds of African elephants mysteriously dropped dead in Botswana. The dead has been caused by toxins produced by naturally occurring cyanobacteria caused the animals’ demise. |
+| **Procedure/what was examinated?** | death of hundreds African elephants **=>** The government has ordered testing of corpses and water **=>** cyanobacteria in water **=>** monitoring water during the rainy season |
+| **Conclusion/discoveries** | not poaching because tusks still on elephant **=>** it seems to be because of the cyanobacteria but the new government decided to accept the elephants hunting |
+| **Remaining questions**| - |

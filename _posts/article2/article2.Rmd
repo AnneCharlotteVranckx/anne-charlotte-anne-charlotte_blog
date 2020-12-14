@@ -35,8 +35,6 @@ When humans retrofit the landscape through urbanization or agriculture the wildl
 
 The researchers use the Projecting Responses of Ecological Diversity in Changing Terrestrial Systems (PREDICTS) database in search of any pattern involving altered land and the presence of animals capable of hosting pathogens that can be harmful to humans, called zoonoses or zoonotic diseases. The data from PREDICTS comes from all over the world and includes information on 376 species known to carry zoonoses and around 6,600 other species that don’t. They concluded that zoonotic disease hosts represent a greater proportion of the animals in areas with altered land and higher human activity than in remote, less-affected areas.
 
-Here is a video to illustrate what are [zoonoses](https://www.youtube.com/watch?v=7rQanJcCUXw&ab_channel=STAT).
-
 “What this means is that animal communities in more human-dominated landscapes end up with a higher proportion of disease-carrying species, both in terms of species richness and in the total number of individuals,” co-lead author David Redding, an ecologist at University College London’s Centre for Biodiversity & Environment Research, tells UPI.
 
 The Guardian reports that many animals able to live in human-occupied areas, such as rodents, bats, and pigeons, are typically small and highly mobile. They have also the capacity to reproduce quickly and in large numbers. This method, choosing quantity over quality, can come at the expense of the animal’s immune system, making them more susceptible to zoonoses.
@@ -60,6 +58,11 @@ The Guardian reports that humans have altered the landscape of more than half of
 | harmful | causing or likely to cause harm | detrimental |
 | to trigger | cause (a device) to function | to activate |
 | to balloon | move from a lower position to a higher one; come or go up | to rise |
+
+***
+# Interpretation with media
+
+Here is a video to illustrate what are [zoonoses](https://www.youtube.com/watch?v=7rQanJcCUXw&ab_channel=STAT).
 
 ***
 # Analysis Table

@@ -1,5 +1,64 @@
 [
   {
+    "path": "posts/article4/",
+    "title": "Article 4",
+    "description": "Tests point to a toxic algal bloom that might have led to the unprecedented deaths of hundreds of African elephants in Botswana earlier this year, but the evidence isn’t conclusive.",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {}
+        }
+      }
+    ],
+    "date": "2020-12-14",
+    "categories": [
+      "English for Science"
+    ],
+    "preview": "posts/article4/elephant.jpg",
+    "last_modified": "2020-12-14T10:29:57+01:00"
+  },
+  {
+    "path": "posts/article1/",
+    "title": "Article 1",
+    "description": "A mother mouse’s gut microbes help wire her pup’s brain",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {}
+        }
+      }
+    ],
+    "date": "2020-12-13",
+    "categories": [
+      "English for Science"
+    ],
+    "preview": "posts/article1/mouse.jpg",
+    "last_modified": "2020-12-13T09:22:09+01:00"
+  },
+  {
+    "path": "posts/article2/",
+    "title": "Article 2",
+    "description": "Animals that can host pathogens dangerous to humans, such as rodents, birds, and bats, are proportionately more common in human-occupied spaces than in remote areas.",
+    "author": [
+      {
+        "name": "Anne-Charlotte Vranckx",
+        "url": {
+          "https://github.com/AnneCharlotteVranckx": {}
+        }
+      }
+    ],
+    "date": "2020-12-13",
+    "categories": [
+      "English for Science"
+    ],
+    "preview": "posts/article2/doctor.png",
+    "last_modified": "2020-12-13T09:16:54+01:00",
+    "preview_width": 1280,
+    "preview_height": 1280
+  },
+  {
     "path": "posts/article3/",
     "title": "Article 3",
     "description": "Nothing Eats Viruses, Right? Meet Some Hungry Protists",
@@ -17,27 +76,6 @@
     ],
     "preview": "posts/article3/bacteria.jpg",
     "last_modified": "2020-12-12T15:15:14+01:00"
-  },
-  {
-    "path": "posts/article2/",
-    "title": "Article 2",
-    "description": "Animals that can host pathogens dangerous to humans, such as rodents, birds, and bats, are proportionately more common in human-occupied spaces than in remote areas.",
-    "author": [
-      {
-        "name": "Anne-Charlotte Vranckx",
-        "url": {
-          "https://github.com/AnneCharlotteVranckx": {}
-        }
-      }
-    ],
-    "date": "2020-12-06",
-    "categories": [
-      "English for Science"
-    ],
-    "preview": "posts/article2/doctor.png",
-    "last_modified": "2020-12-06T15:15:28+01:00",
-    "preview_width": 1280,
-    "preview_height": 1280
   },
   {
     "path": "posts/2020-11-15-graphicdescription/",
@@ -78,24 +116,5 @@
     "last_modified": "2020-11-15T18:34:42+01:00",
     "preview_width": 660,
     "preview_height": 819
-  },
-  {
-    "path": "posts/article1/",
-    "title": "Article 1",
-    "description": "A mother mouse’s gut microbes help wire her pup’s brain",
-    "author": [
-      {
-        "name": "Anne-Charlotte Vranckx",
-        "url": {
-          "https://github.com/AnneCharlotteVranckx": {}
-        }
-      }
-    ],
-    "date": "2020-10-30",
-    "categories": [
-      "English for Science"
-    ],
-    "preview": "posts/article1/mouse.jpg",
-    "last_modified": "2020-10-30T13:19:21+01:00"
   }
 ]
