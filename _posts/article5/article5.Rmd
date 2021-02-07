@@ -1,0 +1,75 @@
+---
+title: "Article 5"
+description: |
+  Some bacteria are suffocating sea stars, turning the animals to goo
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: seastar.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+# Source, date & words
+
+I decided to choose an [article](https://www.sciencenews.org/article/bacteria-suffocating-sea-stars-wasting-disease-goo) from *ScienceNews*.
+I consulted the page on Saturday, 06th February 2021.
+The article has been published on January 20th, 2021.
+
+**Word count** : 
+
+***
+# Important parts of the article
+
+The mysterious culprit behind a deadly sea star disease is not an infection : multiple types of bacteria living within millimeters of sea stars’ skin deplete oxygen from the water and suffocate the animals. They thrive when there are high levels of organic matter in warm water and create a low oxygen environment that can make sea stars melt in a puddle of slime.
+
+Scientists suspected that a virus or bacteria could make starfish sick. This hypothesis was supported by a 2014 study that found that unhealthy animals may have been infected with a virus, but was refuted by studies that found no link between the virus and dying starfish. 
+
+The discovery that a boom of nutrient-loving bacteria can drain oxygen from the water and cause wasting "leads us to believe that there may not always be a single pathogen or compelling evidence," said Melissa Pespeni.  
+
+According to Ian Hewson, there was certainly a lot of prevarication during the hunt for why starfish along the Pacific coast of North America were melting in the mud. In addition to the initial hypothesis of a viral cause of starfish loss - which has been disproved - there have been a whole range of other explanations, from differences in water temperature to the exposure of animals to bacteria. But nothing reliably triggered wasting. They examined the types of bacteria living with healthy sea stars compared with the animals with wasting disease.
+
+Types of bacteria known as copiotrophs, living in nutrient-rich environments, were present around starfish at higher than normal levels: shortly before or as the animals developed lesions. Bacteria that survive only in environments with little or no oxygen were also thriving. In the laboratory, starfish began to die off when researchers added phytoplankton or a common ingredient for bacterial growth to the warm water tubs in which these microbes and starfish lived.
+
+Experimental depletion of oxygen in the water had a similar effect causing injury. Starfish breathe by diffusing oxygen through their skin gills, so that the lack of oxygen in the wake of thriving copiotrophs leaves the starfish struggling for air. It is not known exactly how the animals degrade under conditions of low oxygen, but this could be due to massive cell death.Although the disease is not caused by a contagious pathogen, it is transmissible because dying starfish generate more organic matter that encourages bacteria to grow on nearby healthy animals. 
+
+The team analysed the tissues of the starfish that succumbed to the mass death - following a major algae bloom on the west coast of the United States - to see if such environmental conditions could explain the outbreak. In the fast-growing appendages that help them move around, the dead starfish contained large amounts of nitrogen found in conditions of low oxygen - a sign that these animals may have died from a lack of oxygen.
+
+The problem could get worse with climate change: "Warm waters cannot contain so much oxygen just for physical reasons". Bacteria also thrive in warm waters.  
+
+But determining the probable cause could help experts to better deal with the problem in the laboratory. Some techniques include increasing the level of oxygen in a water tank to make the gas more readily available to the starfish, or getting rid of extra organic matter through ultraviolet light or water exchange.
+
+***
+# Vocabulary
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| goo | a thick or sticky substance | jelly, slime |
+| red herring | something intended to remove or distract one's attention from the real problem or matter at hand. | - |
+| tub | open container | bath |
+| spur | something that forces one to action | to force, to incite |
+| nearby | close at hand, next to | - |
+| to flourish | to be in a vigorous state, thrive | - |
+
+***
+# Analysis Table
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+| **Researchers** | **Erin Garcia de Jesus** (author), **Melissa Pespeni** (biologist at the University of Vermont in Burlington : not involved), **Ian Hewson** (marine biologist at Cornell University), **Hewson’s team** |
+| **Published in**  | ScienceNews, on January 20th, 2021 |  
+| **General topic** | Some bacteria are suffocating sea stars, turning the animals to goo. What is the cause of the sea stars death ? |
+| **Procedure/what was examinated?** | Scientists suspected that a virus or bacterium might be making sea stars sick **=>** no link between virus and sea stars **=>** a lot of different explanations (from differences in water temperature to exposing the animals to bacteria) but no one resolved the problem **=>** comparing the type of bacteria between healthy and sick sea stars **=>** starfish began to die off when researchers added phytoplankton or a common ingredient for bacterial growth to the warm water tubs in which these microbes and starfish lived **=>** Experimental depletion of oxygen in the water had a similar effect |
+| **Conclusion/discoveries** | the disease is not caused by a contagious pathogen but by a low rate of oxygen **=>** we don't know how the animals degrade under conditions of low oxygen **=>** could be due to massive cell death **=>** transmissible because dying starfish generate more organic matter that encourages bacteria to grow on healthy animals **=>** The problem could get worse with climate change: "Warm waters cannot contain so much oxygen just for physical reasons" |
+| **Remaining questions**| - |
+

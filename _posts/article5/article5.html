@@ -19,371 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Anne-Charlotte's Blog: Table of Contents</title>
+  <title>Article 5</title>
   
+  <meta property="description" itemprop="description" content="Some bacteria are suffocating sea stars, turning the animals to goo"/>
   
-  <link rel="icon" type="image/gif" href="logo.gif"/>
   
   <!--  https://schema.org/Article -->
   <meta property="article:published" itemprop="datePublished" content="2021-02-07"/>
   <meta property="article:created" itemprop="dateCreated" content="2021-02-07"/>
-  <meta name="article:author" content="Vranckx Anne-Charlotte"/>
+  <meta name="article:author" content="Anne-Charlotte Vranckx"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Anne-Charlotte&#39;s Blog: Table of Contents"/>
+  <meta property="og:title" content="Article 5"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Some bacteria are suffocating sea stars, turning the animals to goo"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Anne-Charlotte&#39;s Blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Anne-Charlotte&#39;s Blog: Table of Contents"/>
+  <meta property="twitter:title" content="Article 5"/>
+  <meta property="twitter:description" content="Some bacteria are suffocating sea stars, turning the animals to goo"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Table of Contents"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Vranckx Anne-Charlotte"]}]}]},{"type":"character","attributes":{},"value":["2021-02-07"]},{"type":"character","attributes":{},"value":["Data Science"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","preview","output"]}},"value":[{"type":"character","attributes":{},"value":["Article 5"]},{"type":"character","attributes":{},"value":["Some bacteria are suffocating sea stars, turning the animals to goo\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Anne-Charlotte Vranckx"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://github.com/AnneCharlotteVranckx"]}},"value":[{"type":"NULL"}]}]}]},{"type":"character","attributes":{},"value":["2021-02-07"]},{"type":"character","attributes":{},"value":["English for Science"]},{"type":"character","attributes":{},"value":["seastar.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["seastar.jpg"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1259,64 +927,13 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="article5_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="article5_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="article5_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="article5_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #F0DBF0;
-    font-size: 20px;
-    font-weight: 350;
-  }
-  
-  .distill-site-nav a {
-    color: #FFA5FF;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: #CDBEFF;
-  }
-  
-  .distill-site-header {
-  }
-  
-  .distill-site-footer {
-  }
-  
-  ul > li::marker {
-    font-size: 1.125em;
-    color: #ECC9EC;
-  }
-  
-  d-article a {
-    border-bottom: 2px solid #ECC9EC;
-    text-decoration: none;
-  }
-  
-  body{
-      font-family: Snell Roundhand
-    
-  }
-  
-  h1,h2,h3,h4,h5,h6{ 
-      font-size: 24pt;
-      color: #ECC9EC
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
 
@@ -1325,75 +942,130 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Table of Contents","authors":[{"author":"Vranckx Anne-Charlotte","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2021-02-07T00:00:00.000+01:00","citationText":"Anne-Charlotte, 2021"}
+{"title":"Article 5","description":"Some bacteria are suffocating sea stars, turning the animals to goo","authors":[{"author":"Anne-Charlotte Vranckx","authorURL":{"https://github.com/AnneCharlotteVranckx":{}},"affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2021-02-07T00:00:00.000+01:00","citationText":"Vranckx, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Anne-Charlotte's Blog</a>
-<span class="nav-dropdown-header"></span>
-</div>
-<div class="nav-right">
-<a class="nav-image">
-<img src="logo.gif"/>
-</a>
-<a href="index.html">Home</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-English for Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontents.html">Table of contents</a>
-<a href="meal/meal.html">M.E.A.L.</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Data Science
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="tableofcontentsssd.html">Table of contents</a>
-</div>
-</div>
-<span class="nav-dropdown-header">Science by Me</span>
-<a href="posts/about/index.html">About Me</a>
-<a href="https://github.com/AnneCharlotteVranckx/anne-charlotte-anne-charlotte_blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Table of Contents</h1>
-
+<h1>Article 5</h1>
+<p><p>Some bacteria are suffocating sea stars, turning the animals to goo</p></p>
 </div>
 
 <div class="d-byline">
-  Vranckx Anne-Charlotte  
+  Anne-Charlotte Vranckx true 
   
 <br/>2021-02-07
 </div>
 
 <div class="d-article">
-<blockquote>
-<p>Court article sur un graphique en anglais</p>
-</blockquote>
-<p><a href="https://annecharlottevranckx.github.io/anne-charlotte-anne-charlotte_blog/posts/2020-11-15-graphicdescription/">Graphic description</a></p>
-<figure>
-<img src="images/urchin.jpg" alt="" /><figcaption>Description of a graph representing the evolution of the skeletal mass according to the origin of the sea urchins.</figcaption>
-</figure>
+<hr />
+<h1 id="source-date-words">Source, date &amp; words</h1>
+<p>I decided to choose an <a href="https://www.sciencenews.org/article/bacteria-suffocating-sea-stars-wasting-disease-goo">article</a> from <em>ScienceNews</em>. I consulted the page on Saturday, 06th February 2021. The article has been published on January 20th, 2021.</p>
+<p><strong>Word count</strong> :</p>
+<hr />
+<h1 id="important-parts-of-the-article">Important parts of the article</h1>
+<p>The mysterious culprit behind a deadly sea star disease is not an infection : multiple types of bacteria living within millimeters of sea stars’ skin deplete oxygen from the water and suffocate the animals. They thrive when there are high levels of organic matter in warm water and create a low oxygen environment that can make sea stars melt in a puddle of slime.</p>
+<p>Scientists suspected that a virus or bacteria could make starfish sick. This hypothesis was supported by a 2014 study that found that unhealthy animals may have been infected with a virus, but was refuted by studies that found no link between the virus and dying starfish.</p>
+<p>The discovery that a boom of nutrient-loving bacteria can drain oxygen from the water and cause wasting “leads us to believe that there may not always be a single pathogen or compelling evidence,” said Melissa Pespeni.</p>
+<p>According to Ian Hewson, there was certainly a lot of prevarication during the hunt for why starfish along the Pacific coast of North America were melting in the mud. In addition to the initial hypothesis of a viral cause of starfish loss - which has been disproved - there have been a whole range of other explanations, from differences in water temperature to the exposure of animals to bacteria. But nothing reliably triggered wasting. They examined the types of bacteria living with healthy sea stars compared with the animals with wasting disease.</p>
+<p>Types of bacteria known as copiotrophs, living in nutrient-rich environments, were present around starfish at higher than normal levels: shortly before or as the animals developed lesions. Bacteria that survive only in environments with little or no oxygen were also thriving. In the laboratory, starfish began to die off when researchers added phytoplankton or a common ingredient for bacterial growth to the warm water tubs in which these microbes and starfish lived.</p>
+<p>Experimental depletion of oxygen in the water had a similar effect causing injury. Starfish breathe by diffusing oxygen through their skin gills, so that the lack of oxygen in the wake of thriving copiotrophs leaves the starfish struggling for air. It is not known exactly how the animals degrade under conditions of low oxygen, but this could be due to massive cell death.Although the disease is not caused by a contagious pathogen, it is transmissible because dying starfish generate more organic matter that encourages bacteria to grow on nearby healthy animals.</p>
+<p>The team analysed the tissues of the starfish that succumbed to the mass death - following a major algae bloom on the west coast of the United States - to see if such environmental conditions could explain the outbreak. In the fast-growing appendages that help them move around, the dead starfish contained large amounts of nitrogen found in conditions of low oxygen - a sign that these animals may have died from a lack of oxygen.</p>
+<p>The problem could get worse with climate change: “Warm waters cannot contain so much oxygen just for physical reasons”. Bacteria also thrive in warm waters.</p>
+<p>But determining the probable cause could help experts to better deal with the problem in the laboratory. Some techniques include increasing the level of oxygen in a water tank to make the gas more readily available to the starfish, or getting rid of extra organic matter through ultraviolet light or water exchange.</p>
+<hr />
+<h1 id="vocabulary">Vocabulary</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Word from the text</th>
+<th>Definition</th>
+<th>Synonyms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>goo</td>
+<td>a thick or sticky substance</td>
+<td>jelly, slime</td>
+</tr>
+<tr class="even">
+<td>red herring</td>
+<td>something intended to remove or distract one’s attention from the real problem or matter at hand.</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>tub</td>
+<td>open container</td>
+<td>bath</td>
+</tr>
+<tr class="even">
+<td>spur</td>
+<td>something that forces one to action</td>
+<td>to force, to incite</td>
+</tr>
+<tr class="odd">
+<td>nearby</td>
+<td>close at hand, next to</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>to flourish</td>
+<td>to be in a vigorous state, thrive</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="analysis-table">Analysis Table</h1>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Basic article informations</strong></th>
+<th><strong>Informations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Researchers</strong></td>
+<td><strong>Erin Garcia de Jesus</strong> (author), <strong>Melissa Pespeni</strong> (biologist at the University of Vermont in Burlington : not involved), <strong>Ian Hewson</strong> (marine biologist at Cornell University), <strong>Hewson’s team</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Published in</strong></td>
+<td>ScienceNews, on January 20th, 2021</td>
+</tr>
+<tr class="odd">
+<td><strong>General topic</strong></td>
+<td>Some bacteria are suffocating sea stars, turning the animals to goo. What is the cause of the sea stars death ?</td>
+</tr>
+<tr class="even">
+<td><strong>Procedure/what was examinated?</strong></td>
+<td>Scientists suspected that a virus or bacterium might be making sea stars sick <strong>=&gt;</strong> no link between virus and sea stars <strong>=&gt;</strong> a lot of different explanations (from differences in water temperature to exposing the animals to bacteria) but no one resolved the problem <strong>=&gt;</strong> comparing the type of bacteria between healthy and sick sea stars <strong>=&gt;</strong> starfish began to die off when researchers added phytoplankton or a common ingredient for bacterial growth to the warm water tubs in which these microbes and starfish lived <strong>=&gt;</strong> Experimental depletion of oxygen in the water had a similar effect</td>
+</tr>
+<tr class="odd">
+<td><strong>Conclusion/discoveries</strong></td>
+<td>the disease is not caused by a contagious pathogen but by a low rate of oxygen <strong>=&gt;</strong> we don’t know how the animals degrade under conditions of low oxygen <strong>=&gt;</strong> could be due to massive cell death <strong>=&gt;</strong> transmissible because dying starfish generate more organic matter that encourages bacteria to grow on healthy animals <strong>=&gt;</strong> The problem could get worse with climate change: “Warm waters cannot contain so much oxygen just for physical reasons”</td>
+</tr>
+<tr class="even">
+<td><strong>Remaining questions</strong></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
