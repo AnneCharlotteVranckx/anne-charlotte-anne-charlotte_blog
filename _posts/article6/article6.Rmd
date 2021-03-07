@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # Source, date & words
 
 I decided to choose an [article](https://www.sciencenews.org/article/toxin-producing-skin-bacteria-can-make-newt-deadly-poisonous) from *ScienceNews*.
-I consulted the page on Saturday, 07th March 2021.
+I consulted the page on Saturday, 06th March 2021.
 The article has been published on April 20th, 2020.
 
 **Word count** : 

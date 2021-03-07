@@ -1,0 +1,60 @@
+---
+title: "Article 7"
+description: |
+  New Bacterium Linked to Chimp Deaths
+author:
+  - name: Anne-Charlotte Vranckx
+    url:
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: chimpanzee.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+# Source, date & words
+
+I decided to choose an [article](https://www.the-scientist.com/news-opinion/new-bacterium-linked-to-chimp-deaths-68420) from *TheScientist*.
+I consulted the page on Saturday, 07th March 2021.
+The article has been published on February 03th, 2021.
+
+**Word count** : 
+
+***
+# Summary
+
+
+
+***
+# Vocabulary
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+
+***
+# Analysis Table
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+| **Researchers** | - |
+| **Published in**  | - |  
+| **General topic** | - |
+| **Procedure/what was examinated?** | - |
+| **Conclusion/discoveries** | - |
+| **Remaining questions**| - |
+
