@@ -12,10 +12,18 @@ navbar:
       href: index.html
     - text: "English for Science"
       menu:
+        - text: "Introduction"
+          href:
         - text: "Table of contents"
           href: tableofcontents.html
+        - text: "Conclusion"
+          href:
         - text: "M.E.A.L."
           href: "meal/meal.html"
+        - text: "Summary I"
+          href: 
+        - text: "Summary II"
+          href:
     - text: "Data Science"
       menu:
         - text: "Table of contents"
