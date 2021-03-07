@@ -31,30 +31,39 @@ The article has been published on February 03th, 2021.
 ***
 # Summary
 
+In a study published today in Nature Communications, researchers describe a new species of bacterium in the genus Sarcina associated with a deadly disease of critically endangered Western chimpanzees (Pan troglodytes verus).
 
+The disease (neurological and gastrointestinal symptoms) killed 56 chimpanzees at the Tacugama chimpanzee sanctuary in Sierra Leone between 2005 and 2018. "It wasn't subtle - the chimpanzees were staggering and stumbling, vomiting and having diarrhoea," says Tony Goldberg, an epidemiologist and veterinarian at the University of Wisconsin at Madison. "Sometimes they would go to bed healthy and be dead in the morning."
+
+The sanctuary staff noted that the disease was 100% fatal: if the chimpanzees developed symptoms of the disease, they died from it. "It was really upsetting for the staff," Gregg Tully, executive director of the Pan African Sanctuary Alliance, told Science.
+
+To get to the bottom of the problem, the alliance called Goldberg and his team, according to the New York Times. The team examined chimpanzee tissue and stool samples for viruses, bacteria and parasites. DNA surveys showed that a bacterial species was present in 68 percent of the samples from the sick chimpanzees and in none of the healthy ones. The bacterium resembles a four-leaf clover, Leah Owens, a graduate student in the Goldberg laboratory, told The Times. This unusual form suggests that it belongs to Sarcina, a little-studied genus that includes a species that causes gastrointestinal symptoms in humans. 
+
+Sequencing of the bacterium's genome has confirmed that it is closely related to other Sarcina bacteria, but that it is a new species. Researchers have not yet determined whether the bacterium alone causes the disease or whether other factors are involved.
+
+The origin of the bacteria is not clear, nor is it clear why the disease peaks in March each year. It is possible that the spores of the bacteria are common in the environment, but it is the weather conditions or the biology of the chimpanzees that trigger the disease, reports the journal Science.
+
+According to Science, veterinarians at the Tacugama Sanctuary are using the researchers' findings to cure sick chimpanzees with antacids and antibiotics (as for human sarcinosis infections).
 
 ***
 # Vocabulary
 
 | Word from the text | Definition | Synonyms |
 |-----|-----|-----|
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
+| sleuths | a detective | a detective ; a bloodhound |
+| to stagger | too (cause to) walk, move, or stand unsteadily | to teeter |
+| to stumble | to strike the foot against something, as in running, so as to trip or fall | - |
+| four-leaf clover | a clover leaf having four leaflets instead of the usual three, purported to bring good luck | - |
 
 ***
 # Analysis Table
 
 | **Basic article informations**      | **Informations** |
 | ----- | ----- |
-| **Researchers** | - |
-| **Published in**  | - |  
-| **General topic** | - |
-| **Procedure/what was examinated?** | - |
-| **Conclusion/discoveries** | - |
-| **Remaining questions**| - |
+| **Researchers** | **Asher Jones** author - **Tony Goldberg** an epidemiologist and veterinarian at the University of Wisconsin - **Gregg Tully** executive director of the Pan African Sanctuary Alliance|
+| **Published in**  | TheScientist, on February 03th, 2021 |  
+| **General topic** | The newly discovered microbe seems to be responsible for a mysterious neurological disease that has killed dozens of critically endangered Western chimpanzees. |
+| **Procedure/what was examinated?** | chimpanzees were staggering and stumbling, vomiting and having diarrhoea ==> team examined chimpanzee tissue and stool samples for viruses, bacteria and parasites ==> Sequencing of the bacterium's genome |
+| **Conclusion/discoveries** | DNA surveys showed that a bacterial species was present in 68 percent of the sick chimpanzees ==> none of the healthy ones ==> bacterium resembles a four-leaf clover ==> closely related to other Sarcina bacteria ==> new species. |
+| **Remaining questions**| Researchers have not yet determined whether the bacterium alone causes the disease or whether other factors are involved. The origin of the bacteria is not clear, nor is it clear why the disease peaks in March each year. |
 
