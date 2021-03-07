@@ -1,12 +1,15 @@
 ---
-title: "article6"
+title: "Article 6"
 description: |
-  A short description of the post.
+  Toxin-producing bacteria can make this newt deadly
 author:
   - name: Anne-Charlotte Vranckx
     url:
-      https://github.com/AnneCharlotteVranckx: {}
-date: 03-07-2021
+      {https://github.com/AnneCharlotteVranckx}
+date: "`r Sys.Date()`"
+categories:
+  - "English for Science"
+preview: fire-salamander.jpg
 output:
   distill::distill_article:
     self_contained: false
@@ -16,7 +19,52 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+***
+# Source, date & words
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+I decided to choose an [article](https://www.sciencenews.org/article/toxin-producing-skin-bacteria-can-make-newt-deadly-poisonous) from *ScienceNews*.
+I consulted the page on Saturday, 07th March 2021.
+The article has been published on April 20th, 2020.
+
+**Word count** : 
+
+***
+# Summary
+
+Rough-skinned newts (in the western United States) use tetrodotoxin (TTX) - a paralysing neurotoxin that prevents nerve cells from sending signals that tell muscles to move - as a defence against predators. These amphibians (Taricha granulosa) have microbes that produce it instead. This is the first time researchers have found tetrodotoxin-producing bacteria on a land animal.
+
+When TTX is ingested in low doses, it can cause tingling or numbness. High amounts can trigger paralysis and death. Some newts harbour enough TTX to kill several people.
+
+Marine animals, including blowfish, receive TTX from bacteria living in their tissues or by eating toxic prey. It is not clear how newts with rough skin acquire the deadly chemical. Work in 2004 suggested that newts did not have the toxin-producing bacteria on their skin, nor did they appear to receive TTX through their diet. This suggests that the animals may be making the toxin themselves.
+
+But TTX is a complicated molecule to make : newts are unlikely to be able to do this when no other known animal can, says Patric Vaelli, a molecular biologist at Harvard University. 
+
+Vaelli and his colleagues have revised the hypothesis of bacterial origin. They cultivated bacteria found on the skin of newts in the laboratory and screened for TTX. The team found toxin-producing microbes belonging to four groups, including Pseudomonas, whose members also produce TTX in pufferfish, blue ringed octopus and sea snails. They found that toxic newts had more Pseudomonas on their skin than a population of non-toxic rough-skinned newts.
+
+This doesn't necessarily "close the door" to the idea that newts can also produce TTX, says Charles Hanifin, a biologist at Utah State University in Logan. This is because these newts have variations in the toxin that have not yet been found in bacteria. Researchers don't know how the bacteria make TTX, which makes it more difficult to make concrete conclusions about its origin, he says.   
+
+But this discovery adds a microbial player to an evolving arms race between newts and garter snakes (Thamnophis sirtalis). Some snakes that live in the same regions as the toxic newts have developed a resistance to the toxin, allowing them to feast on TTX-laden prey. It is possible that Pseudomonas bacteria may become more abundant on newts over time to make them more toxic, and may put evolutionary pressure on the snakes to develop higher levels of resistance, Vaelli says.
+
+***
+# Vocabulary
+
+| Word from the text | Definition | Synonyms |
+|-----|-----|-----|
+| tingling | to have a sensation of slight prickles, stings, or tremors, as from cold, a sharp blow, excitement, etc. | to prickle |
+| numbness | incapable of feeling sensations, as if under the effects of anesthesia | immobility |
+| newts | any of several brilliantly colored salamanders of the family Salamandridae, esp. those of the genera Triturus and Notophthalmus, of North America, Europe, and northern Asia | salamenders |
+
+***
+# Analysis Table
+
+| **Basic article informations**      | **Informations** |
+| ----- | ----- |
+| **Researchers** | **Erin Garcia de Jesus** author - **Patric Vaelli** a molecular biologist at Harvard University, **Charles Hanifin** a biologist at Utah State University in Logan |
+| **Published in**  | ScienceNews, on April 20th, 2020 |  
+| **General topic** | Microbes growing on skin produce tetrodotoxin, a paralytic chemical also found in pufferfish |
+| **Procedure/what was examinated?** | Rough-skinned newts (in the western United States) use tetrodotoxin (TTX) - a paralysing neurotoxin ==> not clear how newts with rough skin acquire the deadly chemical ==> newts did not have the toxin-producing bacteria on their skin, nor did they appear through their diet ==> animals may be making the toxin themselves ==> TTX is a complicated molecule to make ==> hypothesis of bacterial origin ==> They cultivated bacteria found on the skin of newts in the laboratory and screened for TTX |
+| **Conclusion/discoveries** | toxin-producing microbes belonging to four groups, including Pseudomonas, ==> toxic newts had more Pseudomonas on their skin than a population of non-toxic rough-skinned newts ==> not "close the door" to the idea that newts can also produce TTX ==> these newts have variations in the toxin that have not yet been found in bacteria ==> Researchers don't know how the bacteria make TTX.   
+
+Impact : Some snakes that live in the same regions as the toxic newts have developed a resistance to the toxin ==> possibility that Pseudomonas bacteria may become more abundant on newts ==> make them more toxic ==> put evolutionary pressure on the snakes ==> develop higher levels of resistance |
+| **Remaining questions**| - |
 
